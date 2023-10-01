@@ -13,7 +13,6 @@ int linear_search(int *a, int s, int x)
 }
 int main()
 {
-    int k;
     int s;
     int *a, x;
     printf("enter the size of an array.");

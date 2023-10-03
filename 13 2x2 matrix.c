@@ -2,7 +2,6 @@
 
 int main()
 {
-  int o;
   int matrix[2][2];
 
   // Read the matrix from the user

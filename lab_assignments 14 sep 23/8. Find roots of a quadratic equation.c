@@ -1,22 +1,3 @@
-#include <stdio.h>
-#include <math.h>
-
-int main()
-{
-  int a, b, c;
-  float x, y;
-  scanf("%d", &a);
-  scanf("%d", &b);
-  scanf("%d", &c);
-
-  // x2 - 7x+10=0
-  // x = (-b ± √(b^2 - 4ac)) / 2a
-  x = ((-b) + sqrt((b)*b - 4 * a * c)) / 2 * a;
-  y = ((-b) - sqrt((b)*b - 4 * a * c)) / 2 * a;
-  printf("%f\n", x);
-  printf("%f\n", y);
-  return 1;
-}
 /*#include <stdio.h>
 #include <math.h>
 
@@ -50,3 +31,33 @@ int main() {
   return 0;
 }
 */
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  double a, b, c;
+  printf("Enter coefficients a, b, and c: ");
+  scanf("%lf %lf %lf", &a, &b, &c);
+
+  double discriminant = b * b - 4 * a * c;
+  if (discriminant < 0)
+  {
+    printf("Complex roots\n");
+  }
+  else
+  {
+    double root1 = (-b + sqrt(discriminant)) / (2 * a);
+    double root2 = (-b - sqrt(discriminant)) / (2 * a);
+    if (discriminant == 0)
+    {
+      printf("Real and repeated roots: %.2lf\n", root1);
+    }
+    else
+    {
+      printf("Real and distinct roots: %.2lf, %.2lf\n", root1, root2);
+    }
+  }
+
+  return 0;
+}

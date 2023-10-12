@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-char a = 'R';
-printf("You entered : %c\n", a);
-return 0;
+    char a = 'R';
+    printf("You entered : %c\n", a);
+    return 0;
 }

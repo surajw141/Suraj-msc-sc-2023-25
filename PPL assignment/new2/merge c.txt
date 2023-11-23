@@ -1,0 +1,44 @@
+*** Merge Function (void merge(int arr[], int l, int m, int r))
+
+Merges two sorted subarrays into a single sorted array.
+
+arr: The array to be sorted.
+
+l, m, r: Indices defining the two subarrays to be merged.
+
+It dynamically allocates memory for temporary arrays L and R to store the left and right subarrays.
+
+The function then merges the two subarrays back into the original array.
+
+*** Merge Sort Function (void mergeSort(int arr[], int l, int r))
+
+Implements the merge sort algorithm recursively.
+
+arr: The array to be sorted.
+
+l and r: Indices defining the current portion of the array to be sorted.
+
+The function first prints the parameters on entry.
+
+If the array has more than one element, it finds the middle point (m) and recursively applies merge sort to the left and right halves.
+
+Finally, it merges the sorted halves using the merge function.
+
+*** Write Output Function (void writeOutput(int arr[], int size))
+
+Writes the sorted array to an output file named "SortedOutput.txt".
+
+It opens the file, writes the sorted array, and closes the file.
+
+*** Main Function (int main())
+
+Reads input data from a file named "sortinput.txt".
+
+Reads the size of the array and the array elements from the file.
+
+Calls the mergeSort function to sort the array.
+
+Calls the writeOutput function to write the sorted array to the output file.
+
+Frees the dynamically allocated memory for the array.
+

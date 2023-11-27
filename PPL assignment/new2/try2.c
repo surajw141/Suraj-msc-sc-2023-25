@@ -1,4 +1,3 @@
-
 // C program for merge sort algorithm
 // Reading input from sortinput.txt and writing output to SortedOutput.txt
 #include <stdio.h>
@@ -20,13 +19,6 @@ void merge(int arr[], int l, int m, int r)
     int n2 = r - m;                           // Size of right subarray
     int *L = (int *)malloc(n1 * sizeof(int)); // Allocate memory for left subarray
     int *R = (int *)malloc(n2 * sizeof(int)); // Allocate memory for right subarray
-
-    // Check if memory allocation is successful
-    if (L == NULL || R == NULL)
-    {
-        fprintf(stderr, "Memory allocation error.\n");
-        exit(1);
-    }
 
     // Copy the data to the temporary arrays
     for (int i = 0; i < n1; i++)
@@ -110,13 +102,6 @@ void writeOutput(int arr[], int size)
     // Open the output file
     FILE *outputFile = fopen("SortedOutput.txt", "w");
 
-    // Check if the file is opened successfully
-    if (outputFile == NULL)
-    {
-        fprintf(stderr, "Error opening output file.\n");
-        exit(1);
-    }
-
     // Write the sorted array to the output file
     fprintf(outputFile, "Sorted Array: {");
     for (int i = 0; i < size; i++)
@@ -139,26 +124,12 @@ int main()
     // Open the input file
     FILE *inputFile = fopen("sortinput.txt", "r");
 
-    // Check if the file is opened successfully
-    if (inputFile == NULL)
-    {
-        fprintf(stderr, "Error opening input file.\n");
-        return 1;
-    }
-
     int size;
     // Read the size of the array from the input file
     fscanf(inputFile, "Size = %d\n", &size);
 
     // Allocate memory for the array
     int *arr = (int *)malloc(size * sizeof(int));
-
-    // Check if memory allocation is successful
-    if (arr == NULL)
-    {
-        fprintf(stderr, "Memory allocation error.\n");
-        return 1;
-    }
 
     // Read the array elements from the input file
     fscanf(inputFile, "Elements = ");

@@ -1,0 +1,22 @@
+This code defines a function named `find_largest_and_smallest` that takes one parameter `n`. The function returns a tuple of two values: the largest and the smallest random integers between -2147483648 and +2147483647 that are greater than or equal to or less than or equal to `n`, respectively. Here are the steps that this code follows:
+
+1. The function initializes two variables: `largest` and `smallest`. These variables are assigned with negative infinity and positive infinity, respectively.
+2. The function starts a while loop that will run until `n` becomes zero. This loop generates random integers between -2147483648 and +2147483647 using the `random.randint` function.
+3. The function checks if the current random integer `r` is greater than or equal to `n`. If so, it means that `r` is a valid value for `n`, and it assigns `r` to `largest`. Otherwise, it assigns `r` to `smallest`.
+4. The function decrements `n` by one using the `-=` operator. This updates the value of `n` for the next iteration of the loop.
+5. The function ends the while loop.
+6. The function returns a tuple of two values: `(largest, smallest)`.
+7. The program calls the `find_largest_and_smallest` function with `10` as an argument and assigns its result to the variable `result`.
+8. The program prints the value of `result` using the `print` function.
+
+I hope this helps you understand what this code does. If you have any further questions, please feel free to ask me. 😊.
+--------------------------------------------------------------
+The code defines a function called `find_largest_and_smallest` that takes an input `n`. It returns a tuple containing the largest and smallest random integers, both between -2147483648 and +2147483647, that are greater than or equal to or less than or equal to `n`, respectively. The steps are:
+
+1. Initialize `largest` and `smallest` to negative and positive infinity.
+2. In a loop, generate random integers until `n` becomes zero.
+3. Update `largest` and `smallest` based on the generated random integers.
+4. Decrement `n` in each iteration.
+5. Return a tuple of `(largest, smallest)`.
+
+The program then calls this function with `n = 10` and prints the result.

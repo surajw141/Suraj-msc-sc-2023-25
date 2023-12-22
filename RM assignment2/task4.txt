@@ -1,0 +1,1 @@
+One more feature of the single/double precision floating point system is how it handles rounding errors. Rounding errors are inevitable in any numerical computation, especially when dealing with large or small numbers. Rounding errors can cause the actual value of a floating point number to differ from its exact representation, which can lead to inaccurate or unexpected results.

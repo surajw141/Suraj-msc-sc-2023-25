@@ -1,0 +1,15 @@
+{
+    "name": "Harry",
+    "score": 11.75,
+    "IsAdmin": false,
+    "licence": null,
+    "shopitem": [
+        "Food",
+        "Clothes",
+        "Sunflower oil"
+    ],
+    "myobj": {
+        "Name": "Nested",
+        "marks": 45
+    }
+}

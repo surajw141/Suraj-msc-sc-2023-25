@@ -1,0 +1,44 @@
+{
+    "stduent": [
+        {
+            "fina": "suraj",
+            "mina": "kishor",
+            "lana": "wagh",
+            "sem": "2nd",
+            "sub": "pycho",
+            "domain": "social science"
+        },
+        {
+            "fina": "vishal",
+            "mina": "mahesh",
+            "lana": "warje",
+            "sem": "3nd",
+            "sub": "chemistry",
+            "domain": "chem"
+        },
+        {
+            "fina": "krushna",
+            "mina": "naresh",
+            "lana": "mahadev",
+            "sem": "4th",
+            "sub": "jh",
+            "domain": "kj"
+        },
+        {
+            "fina": "h",
+            "mina": "'e",
+            "lana": "fs",
+            "sem": "df",
+            "sub": "fs",
+            "domain": "fds"
+        },
+        {
+            "fina": "fd",
+            "mina": "sd",
+            "lana": "sd",
+            "sem": "sd",
+            "sub": "fs",
+            "domain": "fd"
+        }
+    ]
+}

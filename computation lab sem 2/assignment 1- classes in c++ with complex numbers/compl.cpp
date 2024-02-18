@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <cmath>
 #include "compl.hpp"
@@ -34,7 +35,9 @@ void MyComplex::div(MyComplex c1, MyComplex c2)
     imag = (c1.imag * c2.real - c1.real * c2.imag) / (c2.real * c2.real + c2.imag * c2.imag);
 }
 
-void MyComplex::complexConjugate(MyComplex c1)
+void MyComplex::complexConjugate(
+
+)
 {
     imag = -1 * imag;
 }

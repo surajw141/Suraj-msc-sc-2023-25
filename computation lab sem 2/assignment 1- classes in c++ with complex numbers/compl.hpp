@@ -15,5 +15,5 @@ public:
     void mult(MyComplex, MyComplex);
     void div(MyComplex, MyComplex);
     void norm(MyComplex);
-    void complexConjugate(MyComplex);
+    void complexConjugate();
 };

@@ -1,2 +1,0 @@
-pascala
-fuction Mess

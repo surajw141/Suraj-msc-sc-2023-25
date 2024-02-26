@@ -1,0 +1,34 @@
+Aim: implement CM
+    Store Pno&Name
+    Edit/Delete     -> Backup & Restore
+    List Nos
+    search
+        By Nos
+        By Name
+
+
+steps
+1) Identify users
+    - Requirement
+        - Implicit and explicit
+2) Code
+3) Testing
+4) Deployment
+5) Maintenance
+
+
+main function
+c.add(")
+c.add(")
+c.edit(")
+c.list(")
+c.delete(")
+c.SearchByName(")
+c.SearchByNumber(")
+
+class
+    - Data
+    - function
+vector vs array
+for vector (dynamic array) : vector <int> arr;
+for array : int arr [10]

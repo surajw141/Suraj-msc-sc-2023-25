@@ -1,0 +1,93 @@
+.frame-child8 {
+  width: 436px;
+  height: 1024px;
+  position: relative;
+  background-color: #d9d9d9;
+  display: none;
+  max-width: 100%;
+}
+.text-input-child {
+  height: 58px;
+  width: 237px;
+  position: relative;
+  background-color: #8b8b8b;
+  display: none;
+}
+.e-localhood4 {
+  height: 32px;
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 2;
+}
+.text-input,
+.text-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text-input {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 31px;
+  background-color: #8b8b8b;
+  width: 237px;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.text-input:hover {
+  background-color: #737373;
+}
+.text-input-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 3px;
+}
+.rectangle-parent3 {
+  width: 436px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 30px 343px;
+  box-sizing: border-box;
+  gap: 312px;
+  min-width: 436px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: "Inria Serif";
+}
+@media screen and (max-width: 1275px) {
+  .rectangle-parent3 {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .rectangle-parent3 {
+    padding-top: 20px;
+    padding-bottom: 223px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent3 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .e-localhood4 {
+    font-size: 19px;
+  }
+  .rectangle-parent3 {
+    gap: 312px;
+    padding-bottom: 145px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,343 @@
+.framee-localhood-child {
+  height: 58px;
+  width: 237px;
+  position: relative;
+  background-color: #d9d9d9;
+  display: none;
+}
+.e-localhood {
+  margin: 0;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.framee-localhood {
+  width: 237px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 13px 31px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+.login-to-your,
+.login-using-social {
+  position: relative;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.login-to-your {
+  margin: 0;
+  height: 77px;
+  font-size: 64px;
+  font-weight: 700;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.login-using-social {
+  font-size: 15px;
+}
+.ellipse-a,
+.f {
+  position: relative;
+}
+.ellipse-a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.f {
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.frames-loading-ellipse {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frames-loading-ellipse-child {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.g {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.frames-loading-ellipse1 {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frames-loading-ellipse-item {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.y {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.frames-loading-ellipse2,
+.input-password {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-password {
+  height: 43px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26px;
+}
+.rectangle-divider {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  min-width: 145px;
+}
+.or {
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.rectangle-divider1 {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  min-width: 145px;
+}
+.frame-email-mobile-input,
+.frame-email-mobile-input1,
+.frame-o-r {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-o-r {
+  align-items: center;
+  padding: 0 1px 0 0;
+  gap: 1px;
+}
+.frame-email-mobile-input,
+.frame-email-mobile-input1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: #d9d9d9;
+  height: 56px;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  align-items: flex-start;
+  padding: 16px 23px 22px;
+  box-sizing: border-box;
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  min-width: 250px;
+}
+.frame-email-mobile-input1 {
+  align-items: center;
+  padding: 19px 23px;
+}
+.frame-button,
+.frame-input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-input-group {
+  align-self: stretch;
+  gap: 10px;
+}
+.frame-button {
+  width: 466px;
+  gap: 40px;
+  max-width: 100%;
+}
+.login-button-child {
+  height: 48px;
+  width: 188px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.signin {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.login-button {
+  cursor: pointer;
+  border: 0;
+  padding: 14px 69px 15px 77px;
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.login-button:hover {
+  background-color: #bfbfbf;
+}
+.frame-email-mobile,
+.signup-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.signup-container {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 10px 0 0;
+}
+.frame-email-mobile {
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  max-width: 100%;
+}
+.frame-social-login {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frame-content,
+.frame-login,
+.log-in {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-content {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 185px;
+  max-width: 100%;
+}
+.frame-login,
+.log-in {
+  box-sizing: border-box;
+}
+.frame-login {
+  flex: 1;
+  flex-direction: column;
+  padding: 30px 0 0;
+  min-width: 511px;
+  max-width: 100%;
+}
+.log-in {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 0 33px;
+  gap: 185px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .log-in {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .login-to-your {
+    font-size: 51px;
+  }
+  .frame-content {
+    gap: 185px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-button {
+    gap: 40px;
+  }
+  .frame-email-mobile {
+    gap: 45px;
+  }
+  .frame-login {
+    min-width: 100%;
+  }
+  .log-in {
+    gap: 185px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-to-your {
+    font-size: 38px;
+  }
+  .or {
+    width: 100%;
+    height: 18px;
+  }
+  .frame-o-r {
+    flex-wrap: wrap;
+  }
+  .frame-content,
+  .log-in {
+    gap: 185px;
+  }
+}

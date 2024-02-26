@@ -1,0 +1,45 @@
+.seller-account-creation-child {
+  height: 58px;
+  width: 237px;
+  position: relative;
+  background-color: #d9d9d9;
+  display: none;
+}
+.e-localhood3 {
+  height: 32px;
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.main-frame,
+.seller-account-creation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.seller-account-creation {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 31px;
+  background-color: #d9d9d9;
+  flex: 1;
+  align-items: center;
+}
+.seller-account-creation:hover {
+  background-color: #bfbfbf;
+}
+.main-frame {
+  width: 303px;
+  align-items: flex-start;
+  padding: 0 33px 13px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .e-localhood3 {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,142 @@
+.store-name-frame {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 160px;
+  left: 508px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.state-selection {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #838383;
+  box-sizing: border-box;
+}
+.give-your-store {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.you-can-update {
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+  font-size: 19px;
+  color: #535353;
+  display: inline-block;
+}
+.area-street-shopno,
+.save-and-continue {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.save-and-continue {
+  width: 396px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.area-street-shopno {
+  width: 804px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 15px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.arrow-icon {
+  width: 23px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 406px;
+  left: 534px;
+  z-index: 1;
+}
+.continue-btn-child {
+  width: 387px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.save-and-continue1 {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.continue-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 20px 13px 24px;
+  background-color: #00769c;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.continue-btn:hover {
+  background-color: #269cc2;
+}
+.shipping-preference-frame,
+.your-store-name {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.your-store-name {
+  margin: 0;
+  width: 389px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 54px;
+}
+.shipping-preference-frame {
+  width: 797px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.service-provider-registration {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 0 102px;
+  box-sizing: border-box;
+  gap: 16px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 25px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+@media screen and (max-width: 450px) {
+  .give-your-store {
+    font-size: 20px;
+  }
+  .your-store-name {
+    gap: 54px;
+  }
+}

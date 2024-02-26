@@ -1,0 +1,173 @@
+.seller-account-creation1 {
+  position: relative;
+}
+.verify-tax-details {
+  align-self: stretch;
+  position: relative;
+}
+.seller-account {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+}
+.store-name {
+  align-self: stretch;
+  position: relative;
+}
+.seller-account1 {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+}
+.shipping-preferences1 {
+  align-self: stretch;
+  height: 41px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.shipping-preferences {
+  width: 163px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 23px 0 0;
+  box-sizing: border-box;
+}
+.bank-details {
+  width: 91px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-set {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+.city-rectangle-child,
+.city-rectangle-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 14.7px;
+}
+.city-rectangle-item {
+  width: 200px;
+}
+.city-rectangle,
+.city-rectangle-child1,
+.city-rectangle-inner {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 200px;
+  height: 14.7px;
+}
+.city-rectangle,
+.city-rectangle-child1 {
+  left: 200px;
+}
+.city-rectangle {
+  top: 8px;
+  left: 8px;
+  width: 800px;
+  height: 0;
+}
+.your-store-name1,
+.your-store-name2,
+.your-store-name3,
+.your-store-name4,
+.your-store-name5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+.your-store-name2,
+.your-store-name3,
+.your-store-name4,
+.your-store-name5 {
+  left: 397px;
+  background-color: #000;
+}
+.your-store-name3,
+.your-store-name4,
+.your-store-name5 {
+  left: 598px;
+  background-color: #d9d9d9;
+}
+.your-store-name4,
+.your-store-name5 {
+  left: 793px;
+}
+.your-store-name5 {
+  left: 196px;
+  background-color: #070707;
+  z-index: 2;
+}
+.arrow-series {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.bank-details-frame,
+.dot-series {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dot-series {
+  width: 832px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 24px;
+  box-sizing: border-box;
+}
+.bank-details-frame {
+  width: 908px;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.ellipse-shape {
+  width: 1408px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 21px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .frame-set {
+    flex-wrap: wrap;
+  }
+}

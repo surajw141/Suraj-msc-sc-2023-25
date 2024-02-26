@@ -1,0 +1,105 @@
+.one-of-us1 {
+  margin: 0;
+  height: 58px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.one-of-us {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 15px 0 0;
+}
+.if-you-already,
+.just-sign-in {
+  margin: 0;
+}
+.if-you-already-container {
+  margin: 0;
+  height: 62px;
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.one-of-us-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 46px;
+}
+.ellipse-child {
+  height: 49px;
+  width: 168px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #8a8a8a;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.sign-in {
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Serif";
+  color: #fff;
+  text-align: left;
+  z-index: 2;
+}
+.button,
+.ellipse {
+  display: flex;
+  align-items: center;
+}
+.ellipse {
+  cursor: pointer;
+  border: 0;
+  padding: 14px 64px 18px 59px;
+  background-color: #8a8a8a;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.ellipse:hover {
+  background-color: #707070;
+}
+.button {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 3px;
+  gap: 66px;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: "Inria Serif";
+}
+@media screen and (max-width: 750px) {
+  .one-of-us1 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .one-of-us1 {
+    font-size: 29px;
+  }
+  .if-you-already-container {
+    font-size: 21px;
+  }
+  .one-of-us-parent {
+    gap: 46px;
+  }
+  .button {
+    gap: 66px;
+  }
+}

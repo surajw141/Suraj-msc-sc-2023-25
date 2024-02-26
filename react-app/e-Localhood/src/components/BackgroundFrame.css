@@ -1,0 +1,85 @@
+.background-frame-child {
+  width: 436px;
+  height: 1024px;
+  position: relative;
+  background-color: #d9d9d9;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #a6a6a6;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.o-r-symbol,
+.o-r-symbol1 {
+  position: absolute;
+  top: 35.77px;
+  left: 11.8px;
+  background-color: #000;
+  width: 33.9px;
+  height: 1.5px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.o-r-symbol1 {
+  top: 37.07px;
+  left: 35.81px;
+  transform: rotate(-135deg);
+  z-index: 3;
+}
+.ellipse-parent {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  right: 21px;
+}
+.background-frame {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 343px 51px;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 436px;
+  min-height: 1024px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1125px) {
+  .background-frame {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .background-frame {
+    padding-top: 223px;
+    padding-bottom: 223px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .background-frame {
+    padding-top: 145px;
+    padding-bottom: 145px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .background-frame {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

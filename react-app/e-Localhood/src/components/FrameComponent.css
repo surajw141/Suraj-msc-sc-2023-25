@@ -1,0 +1,128 @@
+.pincode-text,
+.your-store-name6 {
+  position: relative;
+}
+.pincode-text {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #f4f4f4;
+  align-self: stretch;
+  height: 44px;
+  box-sizing: border-box;
+  min-width: 232px;
+}
+.state-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.city {
+  position: relative;
+}
+.state-text-child {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #f4f4f4;
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 232px;
+}
+.state-text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.state {
+  position: relative;
+}
+.frame-with-ellipses-child {
+  height: 44px;
+  width: 387px;
+  position: relative;
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.maharashtra {
+  width: 91px;
+  border: 0;
+  outline: 0;
+  font-family: "Inria Sans";
+  font-size: 17px;
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.bank-details-frame1 {
+  height: 16px;
+  width: 23px;
+  position: absolute;
+  margin: 0 !important;
+  right: 34px;
+  bottom: -11px;
+  z-index: 1;
+}
+.frame-with-ellipses,
+.location-details-frame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-with-ellipses {
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 9px 19px 15px;
+  position: relative;
+}
+.location-details-frame {
+  flex-direction: column;
+  gap: 3px;
+}
+.area-street-shop {
+  position: relative;
+  white-space: pre-wrap;
+}
+.frame-with-text-area-and-recta {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #f4f4f4;
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 232px;
+}
+.city-rectangle1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+  box-sizing: border-box;
+  gap: 18px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: "Inria Sans";
+}

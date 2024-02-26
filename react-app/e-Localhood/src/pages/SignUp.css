@@ -1,0 +1,495 @@
+.sign-up-with {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: 341px;
+  left: -873px;
+  border-radius: 50%;
+  background-color: #9c9c9c;
+}
+.sign-up-child,
+.sign-up-item {
+  height: 1.5px;
+  width: 33.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 376.77px;
+  left: -861.2px;
+  background-color: #000;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.sign-up-item {
+  top: 378.07px;
+  left: -837.19px;
+  transform: rotate(-135deg);
+  z-index: 2;
+}
+.o-r-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+.o-r-inner,
+.o-r-item {
+  position: absolute;
+  top: 35.77px;
+  left: 11.8px;
+  background-color: #000;
+  width: 33.9px;
+  height: 1.5px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.o-r-inner {
+  top: 37.07px;
+  left: 35.81px;
+  transform: rotate(-135deg);
+  z-index: 2;
+}
+.o-r {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.create-free-account {
+  margin: 0;
+  height: 77px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.sign-in-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 32px 5px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-up-using {
+  position: relative;
+}
+.create-account-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 11px;
+  text-align: left;
+  font-size: 15px;
+}
+.terms-checkbox {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.f1 {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.password-field {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.password-field-child {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.g1 {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.password-field1 {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.password-field-item {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.y1 {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+  margin-top: -30px;
+}
+.email-field,
+.password-field2 {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-field {
+  height: 43px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26px;
+}
+.o-r-text {
+  height: 2px;
+  flex: 1;
+  background-color: #d9d9d9;
+  min-width: 145px;
+}
+.o-r-text,
+.o-r-text1,
+.or1 {
+  position: relative;
+}
+.or1 {
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.o-r-text1 {
+  height: 2px;
+  flex: 1;
+  background-color: #d9d9d9;
+  min-width: 145px;
+}
+.mobile-number-field,
+.o-r-text-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.o-r-text-parent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px 0 0;
+  gap: 1px;
+}
+.mobile-number-field {
+  width: 466px;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+.input-field-group {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: #d9d9d9;
+  height: 56px;
+  flex: 1;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  align-items: flex-start;
+  padding: 16px 15px 22px;
+  box-sizing: border-box;
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-size: 15px;
+  color: #6c6c6c;
+  min-width: 201px;
+}
+.input-field-group,
+.main-form,
+.register-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.register-button {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: #d9d9d9;
+  height: 56px;
+  flex: 0.9642;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  align-items: center;
+  padding: 17px 20px 21px;
+  box-sizing: border-box;
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-size: 15px;
+  color: #6c6c6c;
+  min-width: 201px;
+}
+.main-form {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 21px;
+}
+.frame-child7 {
+  height: 56px;
+  width: 309px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+}
+.email {
+  position: relative;
+  font-size: 15px;
+  font-family: "Inria Sans";
+  color: #6c6c6c;
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  padding: 16px 15px 22px;
+  box-sizing: border-box;
+  min-width: 201px;
+}
+.contact-info-fields,
+.main-form-child,
+.main-form1,
+.rectangle-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main-form-child {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: #d9d9d9;
+  height: 56px;
+  flex: 0.9642;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  padding: 16px 20px 22px;
+  box-sizing: border-box;
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-size: 15px;
+  color: #6c6c6c;
+  min-width: 201px;
+}
+.contact-info-fields,
+.main-form1 {
+  align-self: stretch;
+  gap: 21px;
+}
+.contact-info-fields {
+  flex-direction: column;
+  padding: 0 0 17px;
+  gap: 11px;
+}
+.confirmation-frame1 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.i-have-read {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.sign-up-confirmation-message {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 10px;
+  gap: 13px;
+}
+.submit-btn-child {
+  height: 48px;
+  width: 188px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.sign-up1 {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.input-fields,
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+}
+.submit-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 63px 14px 73px;
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+.submit-btn:hover {
+  background-color: #bfbfbf;
+}
+.input-fields {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+}
+.first-last-name-fields {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.email-input,
+.first-last-name-fields,
+.mobile-no,
+.o-r-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.email-input {
+  width: 639px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.mobile-no,
+.o-r-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.o-r-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 162px;
+}
+.sign-up,
+.sign-up-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.sign-up-inner {
+  width: 763px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px 0 0;
+  min-width: 763px;
+  max-width: 100%;
+}
+.sign-up {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 32px 0 0;
+  gap: 20px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 64px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+@media screen and (max-width: 1275px) {
+  .sign-up-inner {
+    flex: 1;
+  }
+  .sign-up {
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sign-up-inner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .create-free-account {
+    font-size: 51px;
+  }
+  .main-form,
+  .main-form1 {
+    flex-wrap: wrap;
+  }
+  .email-input {
+    gap: 40px;
+  }
+  .o-r-parent {
+    gap: 162px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create-free-account {
+    font-size: 38px;
+  }
+  .or1 {
+    width: 100%;
+    height: 18px;
+  }
+  .o-r-text-parent {
+    flex-wrap: wrap;
+  }
+  .main-form-child,
+  .register-button {
+    flex: 1;
+  }
+  .o-r-parent {
+    gap: 162px;
+  }
+}

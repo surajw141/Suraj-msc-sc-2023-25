@@ -1,0 +1,214 @@
+.rectangle-div {
+  width: 674px;
+  height: 1024px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.e-localhood2 {
+  margin: 0;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.e-localhood-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 14px 0 0;
+}
+.registration-complete {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.congratulations-you-are {
+  position: relative;
+  font-size: 14px;
+  color: #7b7b7b;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.confirmation-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 25px;
+  box-sizing: border-box;
+  gap: 18px;
+  max-width: 100%;
+  font-size: 28px;
+  color: #169c2b;
+}
+.frame-child5 {
+  align-self: stretch;
+  height: 151px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: none;
+}
+.s-f-d,
+.your-service-provider {
+  position: relative;
+  z-index: 2;
+}
+.s-f-d {
+  font-size: 17px;
+}
+.frame-child6 {
+  height: 44px;
+  width: 330px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.abk-electricals- {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 3;
+}
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 12px 12px;
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-parent1:hover {
+  background-color: #e6e6e6;
+}
+.add-services-frame,
+.frame-div {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-div {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  border: 1px solid #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 19px 0 25px;
+  gap: 12px;
+  z-index: 1;
+}
+.add-services-frame {
+  width: 330px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 60px;
+  font-size: 16px;
+}
+.registration-complete-frame-child {
+  width: 387px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.add-services-and {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #fff;
+  text-align: left;
+  z-index: 2;
+}
+.registration-complete-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 20px 13px 21px;
+  background-color: #00769c;
+  width: 387px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.registration-complete-frame:hover {
+  background-color: #269cc2;
+}
+.desktop-1,
+.rectangle-container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.rectangle-container {
+  width: 674px;
+  border: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 78px 21px 439px 20px;
+  gap: 42px;
+  max-width: 100%;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+@media screen and (max-width: 825px) {
+  .rectangle-container {
+    padding-top: 51px;
+    padding-bottom: 285px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .e-localhood2 {
+    font-size: 19px;
+  }
+  .registration-complete {
+    font-size: 22px;
+  }
+  .rectangle-container {
+    gap: 42px;
+    padding-top: 33px;
+    padding-bottom: 185px;
+    box-sizing: border-box;
+  }
+}

@@ -1,4 +1,12 @@
 #include "bits/stdc++.h"
+#include <string>
+struct Contact
+{
+    int id;
+    std::string title, name, email;
+    long number;
+};
+
 typedef struct
 {
     std ::string name;
@@ -26,12 +34,12 @@ public:
 
     // delete fuction
     void deleteContact();
-    void deleteContactname(); // search name and delete contact
-    void deleteContactnumber();
-    void deleteContactemail();
+    void rmbyname(std::string name); // search name and delete contact
+    void rmbynumber(unsigned long number);
+    void rmbyemail(std::string email);
 
-    void searchName();
-    void searchNumber();
+    void searchbyname(std::string name);
+    void searchbyemail(std::string email);
 
     void backup();
     void restore();

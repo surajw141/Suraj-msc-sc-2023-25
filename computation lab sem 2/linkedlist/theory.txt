@@ -1,0 +1,17 @@
+-> array/ string
+-> stack
+-> Hash table -> set, unordered ordered, 
+-> Associative array
+-> linked list
+-> queue
+-> trees
+-> graphs
+
+
+
+array is contagious
+single l.l. - one directional
+circular l.l. - last unit contains first address
+double li.li.
+circular double l.l.
+

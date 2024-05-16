@@ -57,6 +57,7 @@ void ContactManager::list()
     cout << "\n";
 }
 
+<<<<<<< Updated upstream
 void ContactManager::searchbyname(std::string name)
 {
     for (int i = 0; i < data.size(); i++)
@@ -147,6 +148,23 @@ void ContactManager::rmbyname(std::string name)
         }
     }
 
+=======
+void rmbynumber(string name)
+{
+    for (int i = 0; i < data.size();)
+    {
+        if (data[i].name == name)
+        {
+            data.erase(data.begin() + i);
+            std::cout << "Contact '" << name << "' deleted successfully.\n";
+            return; // exit the function after deleting the contact
+        }
+        else
+        {
+            ++i; // Move to the next element if the current one doesn't match
+        }
+    }
+>>>>>>> Stashed changes
     std::cout << "Contact '" << name << "' not found.\n";
 }
 

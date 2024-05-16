@@ -34,9 +34,15 @@ public:
 
     // delete fuction
     void deleteContact();
+<<<<<<< Updated upstream
     void rmbyname(std::string name); // search name and delete contact
     void rmbynumber(unsigned long number);
     void rmbyemail(std::string email);
+=======
+    void deleteContactname(); // search name and delete contact
+    void rmbynumber(unsigned long number);
+    void deleteContactemail();
+>>>>>>> Stashed changes
 
     void searchbyname(std::string name);
     void searchbyemail(std::string email);

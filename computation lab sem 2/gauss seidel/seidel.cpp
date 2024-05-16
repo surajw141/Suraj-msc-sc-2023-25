@@ -113,9 +113,7 @@ void gauseid(int N, int *iter, double **a, double *b)
         b[i] = y[i];
     }
 }
-
-main()
-
+int main()
 {
     double *vecalloc(int low, int high);
     double **matalloc(int rowlow, int rowhigh,
@@ -126,7 +124,7 @@ main()
     double *b, *x;
     int iter = 0, i, j, N;
     printf("Enter the order of the matrix: ");
-    scanf("y.d", &N);
+    scanf("%d", &N);
     printf("\n\n");
     a = matalloc(1, N, 1, N);
     b = vecalloc(1, N);

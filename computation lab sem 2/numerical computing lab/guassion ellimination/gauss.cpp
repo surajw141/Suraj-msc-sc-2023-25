@@ -22,7 +22,7 @@ int main()
     string filename_L49 = "files/L_49_49.txt";
     string filename_R49 = "files/R_49.txt";
 
-    // string filename_225 = "L_225_225.txt";
+    // string filename_225 = "L_225_225.txt";ṇ
     // string filename_100 = "R_225.txt";
 
     string filename_l = filename_L49;

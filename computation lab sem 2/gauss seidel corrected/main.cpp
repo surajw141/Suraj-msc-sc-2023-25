@@ -1,5 +1,5 @@
 #include "ceidel.hpp"
-#include <iomanip> // Include the iomanip library
+#include <iomanip>
 
 int main()
 {
@@ -32,9 +32,7 @@ int main()
 
     gauseid(N, &iter, a, b);
 
-    // Set precision to 4 digits after the decimal point
     std::cout << std::fixed << std::setprecision(4);
-
     for (i = 1; i <= N; i++)
     {
         std::cout << "x[" << i << "] = " << b[i] << std::endl;

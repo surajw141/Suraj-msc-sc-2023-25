@@ -5,7 +5,7 @@ double *vecalloc(int low, int high)
     double *x = (double *)calloc((high - low + 1), sizeof(double));
     if (x == NULL)
     {
-        std::cerr << "Unable to allocate memory" << std::endl;
+        std::cerr << "unable to allocate memory" << std::endl;
         exit(1);
     }
     return (x - low);
@@ -17,7 +17,7 @@ double **matalloc(int rowlow, int rowhigh, int collow, int colhigh)
     double **x = (double **)calloc((rowhigh - rowlow + 1), sizeof(double *));
     if (x == NULL)
     {
-        std::cerr << "Unable to allocate memory" << std::endl;
+        std::cerr << "unable to allocate memory" << std::endl;
         exit(1);
     }
     x -= rowlow;
@@ -27,7 +27,7 @@ double **matalloc(int rowlow, int rowhigh, int collow, int colhigh)
         x[k] = (double *)calloc((colhigh - collow + 1), sizeof(double));
         if (x[k] == NULL)
         {
-            std::cerr << "Unable to allocate memory" << std::endl;
+            std::cerr << "unable to allocate memory" << std::endl;
             exit(1);
         }
         x[k] -= collow;
@@ -37,8 +37,8 @@ double **matalloc(int rowlow, int rowhigh, int collow, int colhigh)
 
 double maxnum(int m, double *x)
 {
-    double z = MAX(fabs(x[1]), fabs(x[2]));
-    for (int k = 3; k <= m; k++)
+    double z = fabs(x[1]);
+    for (int k = 2; k <= m; k++)
     {
         z = MAX(fabs(x[k]), z);
     }
@@ -60,7 +60,7 @@ void gauseid(int N, int *iter, double **a, double *b)
         {
             if (fabs(a[i][i]) < 5.0e-20)
             {
-                std::cerr << "Singular matrix." << std::endl;
+                std::cout << "Singular matrix." << std::endl;
                 exit(1);
             }
             s = 0.0;
@@ -89,7 +89,7 @@ void gauseid(int N, int *iter, double **a, double *b)
         (*iter)++;
         if ((*iter) > 500)
         {
-            std::cerr << "Too many iterates." << std::endl;
+            std::cout << "Too many iterates." << std::endl;
             exit(1);
         }
     } while (maxnum(N, e) > TOL * maxnum(N, x));
@@ -98,4 +98,8 @@ void gauseid(int N, int *iter, double **a, double *b)
     {
         b[i] = y[i];
     }
+
+    free(e + 1);
+    free(x + 1);
+    free(y + 1);
 }

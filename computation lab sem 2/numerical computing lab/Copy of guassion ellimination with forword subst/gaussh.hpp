@@ -20,6 +20,7 @@ public:
     void uppertriangular();
     void backSubstitution();
     void forwardSubstitution();
+    void lowertriangular();
 };
 
 #endif

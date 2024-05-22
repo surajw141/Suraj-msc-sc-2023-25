@@ -67,6 +67,31 @@ void Matrixops::uppertriangular()
         cout << "\n +++++++++++++++++++++++++++++++\n ";
     }
 }
+void Matrixops::lowertriangular()
+{
+    for (int r = rows - 1; r >= 0; --r)
+    {
+        double pivot = mat[r][r];
+        if (pivot == 0)
+        {
+            cout << "Pivot is zero. Matrix is not full rank or singular." << endl;
+            return;
+        }
+
+        for (int c = 0; c < cols; ++c)
+            mat[r][c] = mat[r][c] / pivot;
+
+        for (int k = r - 1; k >= 0; --k)
+        {
+            double tmp = mat[k][r];
+            for (int c = 0; c < cols; c++)
+                mat[k][c] = mat[k][c] + (-tmp) * mat[r][c];
+        }
+
+        printMatrix();
+        cout << "\n +++++++++++++++++++++++++++++++\n ";
+    }
+}
 
 void Matrixops::backSubstitution()
 {
@@ -77,6 +102,27 @@ void Matrixops::backSubstitution()
     {
         float lhs = 0.0;
         for (int c = r + 1; c < cols - 1; ++c)
+            lhs += mat[r][c] * ans[c];
+
+        ans[r] = mat[r][cols - 1] - lhs;
+    }
+
+    cout << "\n Solution :: ";
+    for (int i = 0; i < cols - 1; i++)
+        cout << ans[i] << " \n";
+    cout << endl;
+
+    delete[] ans;
+}
+void Matrixops::forwardSubstitution()
+{
+    float *ans = new float[cols - 2];
+    ans[0] = mat[0][cols - 1];
+
+    for (int r = 1; r < rows; ++r)
+    {
+        float lhs = 0.0;
+        for (int c = 0; c < r; ++c)
             lhs += mat[r][c] * ans[c];
 
         ans[r] = mat[r][cols - 1] - lhs;

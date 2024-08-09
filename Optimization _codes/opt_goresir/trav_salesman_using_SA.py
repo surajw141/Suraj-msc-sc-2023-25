@@ -11,7 +11,7 @@ import random
 def Distance(P1,P2):
 ### print(" P1 = ",P1)
 ### print(" P2 = ",P2)
-    if(P1 == P2)
+    if(P1 == P2):
         return 0.0
     d. = sqrt (P1[]0 - P2[01]**2 + (P1[1] - P2[1])**2)
 ## print (" d = ", d)

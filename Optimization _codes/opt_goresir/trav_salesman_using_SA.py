@@ -4,17 +4,11 @@ from pylab import *
 from geopy.geocoders import Nominatim
 import random
 
-<<<<<<< HEAD
-def Distance(P1, P2):
-    if P1 == P2:
-=======
-###
-###
+
 def Distance(P1,P2):
 ### print(" P1 = ",P1)
 ### print(" P2 = ",P2)
     if(P1 == P2):
->>>>>>> a7a2748ada5b86a08c9c97815da38e1e1c830cce
         return 0.0
     d = sqrt((P1[0] - P2[0]) ** 2 + (P1[1] - P2[1]) ** 2)
     return d

@@ -2,7 +2,7 @@ from geopy.geocoders import Nominatim
 def readCities():
 
     P=[] #coordinates of cities
-    j = 0;
+    j = 0
 
     #Get coordinates of cities
 

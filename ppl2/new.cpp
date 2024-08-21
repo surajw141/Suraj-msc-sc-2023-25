@@ -1,0 +1,84 @@
+#include <iostream>
+#include <stdexcept>
+#include <sstream>
+#include <string>
+
+class Calculator
+{
+public:
+    double calculate(double num1, char op, double num2)
+    {
+        switch (op)
+        {
+        case '+':
+            return add(num1, num2);
+        case '-':
+            return subtract(num1, num2);
+        case '*':
+            return multiply(num1, num2);
+        case '/':
+            return divide(num1, num2);
+        default:
+            throw std::invalid_argument("ERROR: unknown operator!!!");
+        }
+    }
+
+private:
+    double add(double a, double b)
+    {
+        return a + b;
+    }
+
+    double subtract(double a, double b)
+    {
+        return a - b;
+    }
+
+    double multiply(double a, double b)
+    {
+        return a * b;
+    }
+
+    double divide(double a, double b)
+    {
+        if (b == 0)
+        {
+            throw std::runtime_error("divide by zero exception!!!");
+        }
+        return a / b;
+    }
+};
+
+void getInput(double &num1, char &op, double &num2)
+{
+    std::string input;
+    std::getline(std::cin, input);
+    std::istringstream iss(input);
+    iss >> num1 >> op >> num2;
+    if (iss.fail() || !iss.eof())
+    {
+        throw std::invalid_argument("ERROR: Invalid input format!!!");
+    }
+}
+
+int main()
+{
+    Calculator calculator;
+    double num1, num2;
+    char op;
+
+    std::cout << "Enter calculation (e.g., 50.7 + 1.2): ";
+
+    try
+    {
+        getInput(num1, op, num2);
+        double result = calculator.calculate(num1, op, num2);
+        std::cout << "Output: " << result << std::endl;
+    }
+    catch (const std::exception &e)
+    {
+        std::cerr << e.what() << std::endl;
+    }
+
+    return 0;
+}

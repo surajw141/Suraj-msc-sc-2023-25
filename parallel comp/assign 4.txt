@@ -1,0 +1,5 @@
+write parallel program for matrix vector multiplication program (row wise data distribution) in c++ for n*n matrix, where n/n =1, number of processors = rows, so each processor can get 1 row of matrix, when P # of processors its n/p using MPI_scatter to distribute X to P Processors, P0 will store first element of vector X with 1st row of matrix A, P2 - will store second element of vector X with 2nd row of matrix, ...
+MPI_Allgather for X
+compute element s of y (result vector) on each processor
+MPI_gather for y to be gathered on rank 0
+print from rank 0 to verify correctness results

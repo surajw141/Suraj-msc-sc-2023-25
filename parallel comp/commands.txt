@@ -1,0 +1,81 @@
+  243  mpicc Hello.c 
+  244  ./a.out 
+  245  mpirun -n 2 Hello.c 
+  246  mpirun -n 2 Hello.c 
+  247  mpirun -n 2 Hello.c 
+  248  mpicc Hello.c 
+  249  mpicc Hello.c 
+  250  mpicc Hello.c 
+  251  mpicc Hello.c 
+  252  mpicc Hello.c 
+  253  mpicc Hello.c 
+  254  mpicc Hello.c 
+  255  mpicc Hello.c 
+  256  mpicc Hello.c 
+  257  mpicc Hello.c 
+  258  mpicc Hello.c 
+  259  mpicc Hello.c 
+  260  mpicc Hello.c 
+  261  mpicc Hello.c 
+  262  mpirun -n 2 Hello.c 
+  263  mpicc Hello.c 
+  264  mpirun -n 2 Hello.c 
+  265  mpirun -n 2 ./a.out 
+  266  mpirun -n 2 Hello.c 
+  267  mpirun -n 2 ./a.out 
+  268  mpirun -n 2 ./a.out 
+  269  mpirun -n 2 ./a.out 
+  270  mpicc Hello.c 
+  271  mpirun -n 2 ./a.out 
+  272  mpirun -n 2 ./a.out 
+  273  mpirun --oversubscibe -n 5 ./a.out 
+  274  mpirun --oversubscibe -n 5 ./a.out 
+  275  mpirun --oversubscribe -n 5 ./a.out 
+  276  mpirun --oversubscribe -n 55 ./a.out 
+  277  mpirun --oversubscribe -n 99 ./a.out 
+  278  history 
+  279  mpicc Hello.c 
+  280  mpirun --oversubscribe -n 10 ./a.out 
+  281  mpicc Hello.c 
+  282  mpirun --oversubscribe -n 10 ./a.out 
+  283  history >> commands.txt
+  284  ls
+  285  cat commands.txt 
+  286  mpicc Hello.c 
+  287  mpicc Hello.c 
+  288  mpirun --oversubscribe -n 10 ./a.out 
+  289  mpicc Hello.c 
+  290  mpirun --oversubscribe -n 10 ./a.out 
+  291  mpirun --oversubscribe -n 10 ./a.out 
+  292  mpirun --oversubscribe -n 10 ./a.out 
+  293  history >> commands.txt
+  294  cat commands.txt 
+  295  history > commands.txt
+  296  cat commands.txt 
+  297  cd assign\ 2\ sum\ of\ numbers/
+  298  ls
+  299  mpicc Hello.c 
+  300  mpirun --oversubscribe -n 10 ./a.out 
+  301  mpirun --oversubscribe -n 4 ./a.out 
+  302  mpicc Hello.c 
+  303  mpirun --oversubscribe -n 4 ./a.out 
+  304  mpirun -n 2 ./a.out 
+  305  mpicc Hello.c 
+  306  mpirun -n 2 ./a.out 
+  307  mpicc Hello.c 
+  308  mpicc Hello.c 
+  309  mpirun -n 2 ./a.out 
+  310  mpirun --oversubscribe -n 4 ./a.out 
+  311  mpicc Hello.c 
+  312  mpicc Hello.c 
+  313  mpirun --oversubscribe -n 4 ./a.out 
+  314  mpirun --oversubscribe -n 4 ./a.out 
+  315  mpicc Hello.c 
+  316  mpirun --oversubscribe -n 4 ./a.out 
+  317  mpicc add.c 
+  318  mpirun --oversubscribe -n 4 ./a.out 
+  319  mpicc add.c 
+  320  mpicc add.c 
+  321  mpirun --oversubscribe -n 4 ./a.out 
+  322  mpirun --oversubscribe -n 4 ./a.out 
+  323  history > commands.txt

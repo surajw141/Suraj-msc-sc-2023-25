@@ -1,0 +1,45 @@
+TSP using G.A
+1. read city names & get coordinates using geopy
+2. define class fitness
+3. Generate inital population & sort according to fitness
+4. From the top 85% population fittest
+randomly chosse parent - pairs
+
+5. Let pairs produce children - gene crossover & occasional
+6. fill the remaining 75% of population from the fittest children
+
+
+
+control para meters (dont hardcode use as variables)
+1. pop size
+2. How many to retain
+3. How many parent pairs
+4. How many chidren each pair produces
+5. Mutation probability
+6. overs
+7. Termination critesion
+
+1) choose two strongest individuals
+2) choose completely randomly
+3) choose the first as strongest available
+4) the second randomly
+
+gene crossovers (most defficult part of code)
+
+using 14 cities
+
+MOTHER P1 -> A B C D E F G H I J K L M N
+FATHER P2 -> G I D N A M B H J C E K L F
+
+ CHILD C -> A B D F G I M 'H J C E K L' N
+
+perform incrementally
+pop
+fitness
+
+numbers can be changed (typical values)
+pop size = 100
+mutation probability = 0.04
+pop retaintion = 0.85 
+max pairs = 25
+max chidren per pair = 2

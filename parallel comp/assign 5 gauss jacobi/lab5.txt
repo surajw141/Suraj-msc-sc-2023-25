@@ -1,0 +1,9 @@
+solving system of linear equations using jacobi iterative method
+
+conditions to be satisfied
+=> 1. n equation n variable
+2. A <- determinant =! 0
+3. A <- diagonal entries non zero.
+
+=>  10x - y + 2z + 0w = 6
+    -x + 11y -

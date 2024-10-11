@@ -1,0 +1,573 @@
+suraj.waghmare@KL116:~/Desktop/python$ python3
+Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+KeyboardInterrupt
+>>> 
+[1]+  Stopped                 python3
+suraj.waghmare@KL116:~/Desktop/python$ pip3 install panda
+Defaulting to user installation because normal site-packages is not writeable
+^Z
+[2]+  Stopped                 pip3 install panda
+suraj.waghmare@KL116:~/Desktop/python$ pip3 install pandas
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Downloading pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 4.2 MB/s eta 0:00:00
+Collecting numpy>=1.22.4
+  Downloading numpy-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 4.2 MB/s eta 0:00:00
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas) (2022.1)
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 3.9 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.4/345.4 KB 4.3 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Installing collected packages: tzdata, python-dateutil, numpy, pandas
+  WARNING: The scripts f2py and numpy-config are installed in '/nfs/issc/msc23/suraj.waghmare/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed numpy-2.1.0 pandas-2.2.2 python-dateutil-2.9.0.post0 tzdata-2024.1
+suraj.waghmare@KL116:~/Desktop/python$ python3
+Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas
+>>> help(pandas)
+
+>>> pandas.
+Display all 119 possibilities? (y or n)
+pandas.ArrowDtype(            pandas.Int64Dtype()           pandas.UInt32Dtype()          pandas.get_option(            pandas.pivot_table(           pandas.read_stata(
+pandas.BooleanDtype()         pandas.Int8Dtype()            pandas.UInt64Dtype()          pandas.infer_freq(            pandas.plotting               pandas.read_table(
+pandas.Categorical(           pandas.Interval(              pandas.UInt8Dtype()           pandas.interval_range(        pandas.qcut(                  pandas.read_xml(
+pandas.CategoricalDtype(      pandas.IntervalDtype(         pandas.annotations            pandas.io                     pandas.read_clipboard(        pandas.reset_option(
+pandas.CategoricalIndex(      pandas.IntervalIndex(         pandas.api                    pandas.isna(                  pandas.read_csv(              pandas.set_eng_float_format(
+pandas.DataFrame(             pandas.MultiIndex(            pandas.array(                 pandas.isnull(                pandas.read_excel(            pandas.set_option(
+pandas.DateOffset(            pandas.NA                     pandas.arrays                 pandas.json_normalize(        pandas.read_feather(          pandas.show_versions(
+pandas.DatetimeIndex(         pandas.NaT                    pandas.bdate_range(           pandas.lreshape(              pandas.read_fwf(              pandas.test(
+pandas.DatetimeTZDtype(       pandas.NamedAgg(              pandas.compat                 pandas.melt(                  pandas.read_gbq(              pandas.testing
+pandas.ExcelFile(             pandas.Period(                pandas.concat(                pandas.merge(                 pandas.read_hdf(              pandas.timedelta_range(
+pandas.ExcelWriter(           pandas.PeriodDtype(           pandas.core                   pandas.merge_asof(            pandas.read_html(             pandas.to_datetime(
+pandas.Flags(                 pandas.PeriodIndex(           pandas.crosstab(              pandas.merge_ordered(         pandas.read_json(             pandas.to_numeric(
+pandas.Float32Dtype()         pandas.RangeIndex(            pandas.cut(                   pandas.notna(                 pandas.read_orc(              pandas.to_pickle(
+pandas.Float64Dtype()         pandas.Series(                pandas.date_range(            pandas.notnull(               pandas.read_parquet(          pandas.to_timedelta(
+pandas.Grouper(               pandas.SparseDtype(           pandas.describe_option(       pandas.offsets                pandas.read_pickle(           pandas.tseries
+pandas.HDFStore(              pandas.StringDtype(           pandas.errors                 pandas.option_context(        pandas.read_sas(              pandas.unique(
+pandas.Index(                 pandas.Timedelta(             pandas.eval(                  pandas.options                pandas.read_spss(             pandas.util
+pandas.IndexSlice             pandas.TimedeltaIndex(        pandas.factorize(             pandas.pandas                 pandas.read_sql(              pandas.value_counts(
+pandas.Int16Dtype()           pandas.Timestamp(             pandas.from_dummies(          pandas.period_range(          pandas.read_sql_query(        pandas.wide_to_long(
+pandas.Int32Dtype()           pandas.UInt16Dtype()          pandas.get_dummies(           pandas.pivot(                 pandas.read_sql_table(        
+>>> pandas.__version__
+'2.2.2'
+>>> 
+[3]+  Stopped                 python3
+suraj.waghmare@KL116:~/Desktop/python$ python3
+Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas as pd
+>>> pd.__
+pd.__all__             pd.__dict__            pd.__file__            pd.__gt__(             pd.__loader__          pd.__package__         pd.__setattr__(        pd.__version__
+pd.__annotations__     pd.__dir__(            pd.__format__(         pd.__hash__()          pd.__lt__(             pd.__path__            pd.__sizeof__()        
+pd.__cached__          pd.__doc__             pd.__ge__(             pd.__init__(           pd.__name__            pd.__reduce__()        pd.__spec__            
+pd.__class__(          pd.__docformat__       pd.__getattribute__(   pd.__init_subclass__(  pd.__ne__(             pd.__reduce_ex__(      pd.__str__()           
+pd.__delattr__(        pd.__eq__(             pd.__git_version__     pd.__le__(             pd.__new__(            pd.__repr__()          pd.__subclasshook__(   
+>>> pd.__version__
+'2.2.2'
+>>> 
+>>> help(pd.Series)
+
+>>> pd.Series(data[1,2,3,4])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'data' is not defined
+>>> pd.Series(data=[1,2,3,4])
+0    1
+1    2
+2    3
+3    4
+dtype: int64
+>>> s=pd.Series(data=[1,2,3,4])
+>>> type(s)
+<class 'pandas.core.series.Series'>
+>>> s
+0    1
+1    2
+2    3
+3    4
+dtype: int64
+>>> s=pd.Series(data=[10,20,40,70])
+>>> s
+0    10
+1    20
+2    40
+3    70
+dtype: int64
+>>> s=pd.Series(data=[10,20,40,70], index['a', 'b','c',d'])
+  File "<stdin>", line 1
+    s=pd.Series(data=[10,20,40,70], index['a', 'b','c',d'])
+                                                        ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> s=pd.Series(data=[10,20,40,70], index=['a', 'b','c',d'])
+  File "<stdin>", line 1
+    s=pd.Series(data=[10,20,40,70], index=['a', 'b','c',d'])
+                                                         ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> s=pd.Series(data=[10,20,40,70], index=['a', 'b','c','d'])
+>>> s
+a    10
+b    20
+c    40
+d    70
+dtype: int64
+>>> s['a']
+np.int64(10)
+>>> s['a']
+np.int64(10)
+>>> s['a']
+np.int64(10)
+>>> s.index
+Index(['a', 'b', 'c', 'd'], dtype='object')
+>>> pd.Series(data=3.14, index=["Pi"])
+Pi    3.14
+dtype: float64
+>>> pd.Series(data=3.14, index=["Pi","A","B"])
+Pi    3.14
+A     3.14
+B     3.14
+dtype: float64
+>>> pd.Series(data=3.14, index=["Pi","A","B"], name = "SCMS")
+Pi    3.14
+A     3.14
+B     3.14
+Name: SCMS, dtype: float64
+>>> s.indexdsfdfs
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'indexdsfdfs'
+>>> s.to
+s.to_clipboard(  s.to_dict(       s.to_frame(      s.to_json(       s.to_list()      s.to_numpy(      s.to_pickle(     s.to_string(     s.to_xarray()    
+s.to_csv(        s.to_excel(      s.to_hdf(        s.to_latex(      s.to_markdown(   s.to_period(     s.to_sql(        s.to_timestamp(  s.tolist()       
+>>> s.to_csv("Myseries.csv"
+... )
+>>> pd.Series(data=3.14, index=["Pi","A","B"], columns=["labels", "Pis"], name="SCMS")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Series.__init__() got an unexpected keyword argument 'columns'
+>>> pd.Series(data=3.14, index=["Pi","A","B"], name="SCMS")
+Pi    3.14
+A     3.14
+B     3.14
+Name: SCMS, dtype: float64
+>>> s[0]
+<stdin>:1: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+np.int64(10)
+>>> s[1]
+np.int64(20)
+>>> s[1:]
+b    20
+c    40
+d    70
+dtype: int64
+>>> s['a']
+np.int64(10)
+>>> s[['a','b']]
+a    10
+b    20
+dtype: int64
+>>> s[['a','b']].sum()
+np.int64(30)
+>>> s[['a','b']].mean()
+np.float64(15.0)
+>>> s[['a','b']].max()
+np.int64(20)
+>>> s[['a','b']].min()
+np.int64(10)
+>>> s>10
+a    False
+b     True
+c     True
+d     True
+dtype: bool
+>>> s=10
+>>> s=pd.Series(data=[10,20,40,70], index=['a', 'b','c','d'])
+>>> s>10
+a    False
+b     True
+c     True
+d     True
+dtype: bool
+>>> s==10
+a     True
+b    False
+c    False
+d    False
+dtype: bool
+>>> s[s>10]
+b    20
+c    40
+d    70
+dtype: int64
+>>> 
+>>> names=["Virat","Sachin","Rohit","Rahul"]
+>>> grades=[80,19,70,30]
+>>> s_names=pd.Series(data=names
+names
+>>> s_names=pd.Series(data=names
+names
+>>> s_names=pd.Series(data=names)
+>>> s_grades=pd.Series(data=grades)
+>>> s_grades>40
+0     True
+1    False
+2     True
+3    False
+dtype: bool
+>>> s_names(s_grades>40)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'Series' object is not callable
+>>> s_names[s_grades>40]
+0    Virat
+2    Rohit
+dtype: object
+>>> s_names[(s_grades>60) and (s_grades<75)] 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+>>> s_names[(s_grades>60) & (s_grades<75)] 
+2    Rohit
+dtype: object
+>>> s_names[(s_grades>60)  (s_grades<75)] 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'Series' object is not callable
+>>> s_names[(s_grades>60) | (s_grades<75)] 
+0     Virat
+1    Sachin
+2     Rohit
+3     Rahul
+dtype: object
+>>> s_names
+0     Virat
+1    Sachin
+2     Rohit
+3     Rahul
+dtype: object
+>>> s_grades
+0    80
+1    19
+2    70
+3    30
+dtype: int64
+>>> s_score=pd.Series(data=[10,10,10,10])
+>>> s_grades + s_score
+0    90
+1    29
+2    80
+3    40
+dtype: int64
+>>> /*
+  File "<stdin>", line 1
+    /*
+    ^
+SyntaxError: invalid syntax
+>>> s_grades + s_score
+0    90
+1    29
+2    80
+3    40
+dtype: int64
+>>> s_score=pd.Series(data=[10,10,10,10, 10, 20])
+>>> s_grades + s_score
+0    90.0
+1    29.0
+2    80.0
+3    40.0
+4     NaN
+5     NaN
+dtype: float64
+>>> s_grades.memory_usage(
+... )
+160
+>>> pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]])
+   0  1  2
+0  1  2  3
+1  4  5  6
+2  7  8  9
+>>> df=pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]])
+>>> df=pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"]. index=["R1","R2","R3"])
+  File "<stdin>", line 1
+    df=pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"]. index=["R1","R2","R3"])
+                                                                              ^
+SyntaxError: invalid syntax
+>>> pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"]. index=["R1","R2","R3"])
+  File "<stdin>", line 1
+    pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"]. index=["R1","R2","R3"])
+                                                                           ^
+SyntaxError: invalid syntax
+>>> pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"], index=["R1","R2","R3"])
+    C1  C2  C3
+R1   1   2   3
+R2   4   5   6
+R3   7   8   9
+>>> df=pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], columns=["C1","C2","C3"], index=["R1","R2","R3"])
+>>> df
+    C1  C2  C3
+R1   1   2   3
+R2   4   5   6
+R3   7   8   9
+>>> df['C1']['R1']
+np.int64(1)
+>>> df[0]
+Traceback (most recent call last):
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+>>> df.iloc[0]
+C1    1
+C2    2
+C3    3
+Name: R1, dtype: int64
+>>> df.iloc[0,1]
+np.int64(2)
+>>> df.iloc[:,0]
+R1    1
+R2    4
+R3    7
+Name: C1, dtype: int64
+>>> df.loc[:,0]
+Traceback (most recent call last):
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+>>> df.loc(['C1'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 738, in __call__
+    axis_int_none = self.obj._get_axis_number(axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 576, in _get_axis_number
+    return cls._AXIS_TO_AXIS_NUMBER[axis]
+TypeError: unhashable type: 'list'
+>>> df.loc['C1']
+Traceback (most recent call last):
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'C1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 4301, in xs
+    loc = index.get_loc(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'C1'
+>>> df.columns
+Index(['C1', 'C2', 'C3'], dtype='object')
+>>> df['C1']
+R1    1
+R2    4
+R3    7
+Name: C1, dtype: int64
+>>> df['R1']
+Traceback (most recent call last):
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'R1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'R1'
+>>> df.loc['R1']
+C1    1
+C2    2
+C3    3
+Name: R1, dtype: int64
+>>> df.loc['R1','R2','R3']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1371, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 962, in _validate_tuple_indexer
+    key = self._validate_key_length(key)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1001, in _validate_key_length
+    raise IndexingError("Too many indexers")
+pandas.errors.IndexingError: Too many indexers
+>>> df.loc[['R1','R2','R3']]
+    C1  C2  C3
+R1   1   2   3
+R2   4   5   6
+R3   7   8   9
+>>> df.loc[['C1','C2']]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['C1', 'C2'], dtype='object')] are in the [index]"
+>>> df.[['C1','C2']]
+  File "<stdin>", line 1
+    df.[['C1','C2']]
+       ^
+SyntaxError: invalid syntax
+>>> df.[['C1','C2']]
+  File "<stdin>", line 1
+    df.[['C1','C2']]
+       ^
+SyntaxError: invalid syntax
+>>> df[['C1','C2']]
+    C1  C2
+R1   1   2
+R2   4   5
+R3   7   8
+>>> df[0:2]
+    C1  C2  C3
+R1   1   2   3
+R2   4   5   6
+>>> df[0:1]
+    C1  C2  C3
+R1   1   2   3
+>>> df.loc['R1'
+... ]
+C1    1
+C2    2
+C3    3
+Name: R1, dtype: int64
+>>> df.loc['R1','C2']
+np.int64(2)
+>>> df = pd.read_csv(("M
+MemoryError(          ModuleNotFoundError(  
+>>> df = pd.read_csv(("MyMyseries.csv 
+  File "<stdin>", line 1
+    df = pd.read_csv(("MyMyseries.csv 
+                      ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> df = pd.read_csv(("Myseries.csv")
+... df = pd.read_csv("Myseries.csv")
+  File "<stdin>", line 1
+    df = pd.read_csv(("Myseries.csv")
+                      ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> df = pd.read_csv("Myseries.csv")
+>>> df
+     Name     Surname  Age  Score
+0  Sachin   Tendulkar   43     10
+>>> df = pd.read_csv("Myseries.csv")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 5 fields in line 4, saw 6
+
+>>> df = pd.read_csv("Myseries.csv")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "/nfs/issc/msc23/suraj.waghmare/.local/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 6 fields in line 4, saw 7
+
+>>> df = pd.read_csv("Myseries.csv")
+>>> df
+              Name  Surname  Age  Score   Ads
+Sachin   Tendulkar       43  100      1   NaN
+Virat        Kohli       39   90      2   NaN
+MS           Dhoni       45   89      3   3.0
+>>> 

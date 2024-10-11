@@ -1,0 +1,6 @@
+r_grid = 
+
+psi grid = [ psi (i)  for i in r_grid ]
+
+plt.plot(r_grid, psi_grid)
+plt.show()

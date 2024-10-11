@@ -1,3 +1,4 @@
+#12. read a number if the number is equal to 10 or 20 or 30 divide it by 2, if the number is equal to 40 or 50 divide it by 3, else divide it by 4. Make use of a switch
 #include <stdio.h>
 int main()
 {

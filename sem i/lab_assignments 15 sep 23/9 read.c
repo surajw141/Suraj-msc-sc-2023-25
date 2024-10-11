@@ -1,3 +1,5 @@
+#9. read, a number from the user if the number if a number of between 100 and 200 divide it by 3 if the result is less than 50 print small number if it is greater
+
 #include <stdio.h>
 int main()
 {

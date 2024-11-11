@@ -1,0 +1,2 @@
+Solution:
+-nan -nan 8.5 3 

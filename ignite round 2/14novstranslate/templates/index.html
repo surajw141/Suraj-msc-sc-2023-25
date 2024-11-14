@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World API</title>
+  </head>
+  <body>
+    <h1>Hello World API</h1>
+    <label for="language">Choose a language:</label>
+    <select id="language">
+      <option value="English">English</option>
+      <option value="French">French</option>
+      <option value="Hindi">Hindi</option>
+    </select>
+    <button onclick="callApi()">Get Message</button>
+
+    <!-- Display area for the message -->
+    <p id="message"></p>
+
+    <script>
+      function callApi() {
+        const language = document.getElementById("language").value;
+        fetch(`http://localhost:5000/hello?language=${language}`)
+          .then((response) => response.json())
+          .then((data) => {
+            // Display only the msgText part of the response
+            if (data.msgText) {
+              document.getElementById("message").innerText = data.msgText;
+            } else {
+              document.getElementById("message").innerText =
+                data.error_message || "Error: Unsupported language";
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            document.getElementById("message").innerText =
+              "An error occurred. Please try again.";
+          });
+      }
+    </script>
+  </body>
+</html>

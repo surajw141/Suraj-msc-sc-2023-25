@@ -1,0 +1,1000 @@
+  595  mpirun -n54 ./a.out 
+  596  mpirun -n 5 ./a.out 
+  597  mpirun -n 6 ./a.out 
+  598  mpirun -n 7 ./a.out 
+  599  mpirun --oversubscribe -n 7 ./a.out 
+  600  mpirun --oversubscribe -n 8 ./a.out 
+  601  mpicc trialsum.c 
+  602  ls
+  603  mpirun --oversubscribe -n 8 ./a.out 
+  604  mpirun --oversubscribe -n 9 ./a.out 
+  605  mpirun --oversubscribe -n 11 ./a.out 
+  606  mpicc trialsum.c 
+  607  mpirun --oversubscribe -n 11 ./a.out 
+  608  mpicc trialsum.c 
+  609  mpirun --oversubscribe -n 11 ./a.out 
+  610  mpicc trialsum.c 
+  611  mpirun --oversubscribe -n 11 ./a.out 
+  612  mpicc trialsum.c 
+  613  mpirun --oversubscribe -n 11 ./a.out 
+  614  mpicc trialsum.c 
+  615  mpirun --oversubscribe -n 11 ./a.out 
+  616  mpicc Hello.c 
+  617  mpicc add.c 
+  618  mpirun -n 4 ./a.out 
+  619  mpirun -n  ./a.out 
+  620  mpirun -n 3 ./a.out 
+  621  mpirun -n 6 ./a.out 
+  622  mpirun -n7 ./a.out 
+  623  mpirun -n 7 ./a.out 
+  624  mpirun parallel_sum.c 
+  625  mpicc parallel_sum.c 
+  626  mpirun -n 4 ./a.out 
+  627  mpicc parallel_sum.c 
+  628  mpirun -n 4 ./a.out 
+  629  mpicc parallel_sum.c 
+  630  mpirun -n 4 ./a.out 
+  631  mpirun -n 5 ./a.out 
+  632  mpicc summ.c 
+  633  sudo apt-get install build-essential
+  634  sudo apt-get install libstdc++-11-dev
+  635  sudo apt-get install build-essential
+  636  sudo apt-get install libstdc++-11-dev
+  637  mpicc parallel_sum.c 
+  638  mpirun -n 4 ./a.out 
+  639  mpirun -n 6 ./a.out 
+  640  mpirun -n 5 ./a.out 
+  641  ls
+  642  mpicc add.c 
+  643  mpirun -n 4 ./a.out 
+  644  mpirun -n 3 ./a.out 
+  645  mpirun -n 2 ./a.out 
+  646  mpirun -n 5 ./a.out 
+  647  mpirun -n 6 ./a.out 
+  648  mpirun -n 7 ./a.out 
+  649  mpirun -n 8 ./a.out 
+  650  mpirun -n 9 ./a.out 
+  651  mpirun -n 10 ./a.out 
+  652  mpirun -n 11 ./a.out 
+  653  mpirun -n 12 ./a.out 
+  654  mpicc add.c 
+  655  mpirun -n 12 ./a.out 
+  656  mpirun -n 11 ./a.out 
+  657  mpirun -n 10 ./a.out 
+  658  mpirun -n 8 ./a.out 
+  659  mpirun -n 7 ./a.out 
+  660  mpirun -n 8 ./a.out 
+  661  mpirun -n 6 ./a.out 
+  662  mpirun -n 7 ./a.out 
+  663  mpirun --oversubscribe -n 7 ./a.out 
+  664  mpicc parallel_sum.c 
+  665  mpirun -n 4 ./a.out 
+  666  mpirun -n 8 ./a.out 
+  667  mpirun --oversubscribe -n 8 ./a.out 
+  668  mpirun --oversubscribe -n 10 ./a.out 
+  669  uptime 
+  670  uptime -p
+  671  exit 
+  672  ping google.com
+  673  ping 192.168.38.199
+  674  ping google.com
+  675  exit 
+  676  mpicc integrationBoolesMethod_L3.cpp 
+  677  mpicc integrationBoolesMethod_L3.cpp 
+  678  mpic++ integrationBoolesMethod_L3.cpp 
+  679  mpirun -n 4 ./a.out 
+  680  mpirun -np 4 ./a.out 
+  681  mpirun --oversubscribe -np 4 ./a.out 
+  682  mpirun --oversubscribe -np 8 ./a.out 
+  683  mpirun --oversubscribe -np 9 ./a.out 
+  684  mpirun --oversubscribe -np 10 ./a.out 
+  685  mpic++ integrationBoolesMethod_L3.cpp -lm
+  686  mpirun --oversubscribe -np 10 ./a.out 
+  687  mpirun --oversubscribe -np 9 ./a.out 
+  688  mpirun --oversubscribe -np 8 ./a.out 
+  689  mpirun --oversubscribe -np 10 ./a.out 
+  690  mpirun --oversubscribe -np 9 ./a.out 
+  691  mpirun --oversubscribe -np 4 ./a.out 
+  692  mpic++ integrationBoolesMethod_L3.cpp -lm
+  693  mpirun --oversubscribe -np 4 ./a.out 
+  694  mpirun --oversubscribe -np 9 ./a.out 
+  695  ls
+  696  pwd
+  697  tree
+  698  cd Desktop/
+  699  tree
+  700  exit 
+  701  printenv > "/tmp/tmp-8471739E5tgiVov2jF.txt"
+  702  mpic++ integrationBoolesMethod_L3.cpp -lm
+  703  mpirun --oversubscribe -np 4 ./a.out 
+  704  mpirun --oversubscribe -np 5 ./a.out 
+  705  mpirun --oversubscribe -np 6 ./a.out 
+  706  mpirun --oversubscribe -np 7 ./a.out 
+  707  mpirun --oversubscribe -np 8 ./a.out 
+  708  mpirun --oversubscribe -np 88 ./a.out 
+  709  mpirun --oversubscribe -np 888 ./a.out 
+  710  mpirun --oversubscribe -np 100 ./a.out 
+  711  mpirun --oversubscribe -np 200 ./a.out 
+  712  mpirun --oversubscribe -np 300 ./a.out 
+  713  mpirun --oversubscribe -np 400 ./a.out 
+  714  uname -m
+  715  uptime -p
+  716  cd Desktop/
+  717  ls
+  718  cd shell-scripts/
+  719  sh aptupdate.sh 
+  720  history 
+  721  htop 
+  722  history 
+  723  cd Dea
+  724  cd Desktop/shell-scripts/
+  725  sh aptupdate.sh 
+  726  sh pc2.sh 
+  727  [200~g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  728  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  729  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp -lthread
+  730  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  731  g++ main.cpp DLP.cpp -o dlp_program -I/usr/local/include -L/usr/local/lib -lntl -lgmp
+  732  ./dlp_program 
+  733  g++ test.cpp 
+  734  g++ test.cpp -lntl -lgmp
+  735  ./a.out 
+  736  g++ main.cpp -lntl -lgmp
+  737  g++ main.cpp -lntl -lgmp -lthread
+  738  g++ main.cpp -lntl -lgmp
+  739  g++ main.cpp DLP.cpp -lntl -lgmp
+  740  ./a.out 
+  741  g++ main.cpp DLP.cpp -lntl -lgmp
+  742  ./a.out 
+  743  g++ -g main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  744  gdb ./dlp_program 
+  745  g++ -g main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  746  ./dlp_program 
+  747  g++ main.cpp -lntl -lgmp
+  748  ./a.out 
+  749  g++ main.cpp diffie_helman.h -lgmp -lntl
+  750  g++ main.cpp diffie_helman.cpp -lgmp -lntl
+  751  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  752  g++ -g main.cpp diffie_helman.cpp -o diffie_helman_program
+  753  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  754  [200~g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  755  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  756  g++ main.cpp diffie_helman.cpp -lntl -lgmp
+  757  ./a.out 
+  758  g++ main.cpp elgamal.cpp -o elgamal_program -lntl -lgmp
+  759  g++ main.cpp elgamal.cpp -lgmp -lntl
+  760  grep sudo funcomds.txt 
+  761  grep install funcomds.txt 
+  762  grep funcomds.txt 
+  763  grep su* funcomds.txt 
+  764  grep su** funcomds.txt 
+  765  sudo apt update > update.txt
+  766  tree > update.txt
+  767  tree >> update.txt
+  768  tree > update.txt
+  769  ls
+  770  ls > update.txt 
+  771  ls > update.txt | grep assignment.txt 
+  772  grep Here* assignment.txt | > update.txt
+  773  grep Here* assignment.txt
+  774  grep Here* assignment.txt > update.txt 
+  775  grep Here** assignment.txt > update.txt 
+  776  cd ..
+  777  find Desktop/ass
+  778  find Desktop/Study\ material/
+  779  find Desktop/Study\ material/ -iname 
+  780  find Desktop/Stud -iname 
+  781  find Desktop/Stud -name
+  782  cd Desktop/
+  783  ls
+  784  nano update.txt 
+  785  mv update.txt update2.txt
+  786  ls
+  787  cat update2.txt 
+  788  cat update2.txt > update2.txt 
+  789  cat update2.txt 
+  790  echo "OS Patches" > update2.txt 
+  791  cat update2.txt 
+  792  sudo reboot 
+  793  ls
+  794  cd matrixvec\ multi/
+  795  ls
+  796  g++ matvec.cpp 
+  797  ./a.out 
+  798  g++ parrmatvec.cpp 
+  799  g++ matvec.cpp 
+  800  ./a.out 
+  801  g++ matvec.cpp 
+  802  ./a.out 
+  803  g++ parrmatvec.cpp 
+  804  mpic++ parrmatvec.cpp 
+  805  ./a.out 
+  806  mpic++ parrmatvec.cpp 
+  807  mpirun --oversubscribe -np 4 ./a.out 
+  808  mpirun --oversubscribe -np 5 ./a.out 
+  809  mpirun --oversubscribe -np 6 ./a.out 
+  810  mpirun --oversubscribe -np 7 ./a.out 
+  811  mpirun --oversubscribe -np 8 ./a.out 
+  812  mpirun --oversubscribe -np 9 ./a.out 
+  813  mpirun --oversubscribe -np 3 ./a.out 
+  814  mpic++ multiplication.cpp 
+  815  mpic++ online.cpp 
+  816  mpirun --oversubscribe -np 4 ./a.out 
+  817  mpic++ online.cpp 
+  818  mpirun --oversubscribe -np 4 ./a.out 
+  819  mpirun --oversubscribe -np 5 ./a.out 
+  820  mpirun --oversubscribe -np 3 ./a.out 
+  821  mpirun --oversubscribe -np 2 ./a.out 
+  822  mpirun --oversubscribe -np 6 ./a.out 
+  823  mpic++ bookref.cpp 
+  824  mpic++ parrmatvec.cpp 
+  825  ./a.out 
+  826  mpirun --oversubscribe -np 4 ./a.out 
+  827  mpirun --oversubscribe -np 5 ./a.out 
+  828  mpirun --oversubscribe -np 8 ./a.out 
+  829  tree
+  830  pluma MPIVMM.cpp 
+  831  ls
+  832  mpic++ MPIVMM.cpp 
+  833  mpirun --oversubscribe -np 5 ./a.out 
+  834  mpic++ MPIVMM.cpp 
+  835  mpirun --oversubscribe -np 8 ./a.out 
+  836  mpic++ MPIVMM.cpp 
+  837  mpirun --oversubscribe -np 8 ./a.out 
+  838  vim matvecmult.cpp
+  839  mpic++ matvecmult.cpp 
+  840  ./a.out 
+  841  mpirun --oversubscribe -np 4 ./a.out 
+  842  mpirun --oversubscribe -np 5 ./a.out 
+  843  mpirun --oversubscribe -np 6 ./a.out 
+  844  mpirun --oversubscribe -np 7 ./a.out 
+  845  cat matvecmult.cpp 
+  846  vim matvecmult.cpp
+  847  nano matvecmult.cpp
+  848  pluma matvecmult.cpp 
+  849  touch matrix_vector_input.txt
+  850  vim matrix_vector_input.txt 
+  851  mpic++ matvecmult.cpp 
+  852  mpirun --oversubscribe -np 7 ./a.out 
+  853  mpirun --oversubscribe -np 5 ./a.out 
+  854  mpirun --oversubscribe -np 4 ./a.out 
+  855  mpirun --oversubscribe -np 3 ./a.out 
+  856  mpirun --oversubscribe -np 2 ./a.out 
+  857  pluma matrix_vector_input.txt 
+  858  mpic++ matvecmult.cpp 
+  859  mpirun --oversubscribe -np 2 ./a.out 
+  860  mpirun --oversubscribe -np 5 ./a.out 
+  861  mpirun --oversubscribe -np 4 ./a.out 
+  862  mpirun --oversubscribe -np 6 ./a.out 
+  863  mpic++ matvecmult.cpp 
+  864  mpirun --oversubscribe -np 4 ./a.out 
+  865  mpirun --oversubscribe -np 4 ./a.out 
+  866  mpirun --oversubscribe -np 3 ./a.out 
+  867  mpirun --oversubscribe -np 5 ./a.out 
+  868  mpirun --oversubscribe -np 6 ./a.out 
+  869  cd matrixvec\ multi/
+  870  ls
+  871  mpirun --oversubscribe -np 4 ./a.out 
+  872  mpirun --oversubscribe -np 5 ./a.out 
+  873  mpirun --oversubscribe -np 6 ./a.out 
+  874  mpirun --oversubscribe -np 7 ./a.out 
+  875  cd Desktop/
+  876  ls -a
+  877  ls -l
+  878  ls -la
+  879  nano symbolic_link 
+  880  cd appliedcry/
+  881  tree
+  882  ls -l
+  883  mpic++ integrationBoolesMethod_L3.cpp 
+  884  g++ main.cpp DLP.cpp -lntl -lgmp
+  885  ./a.out 
+  886  ls
+  887  g++ main.cpp diffie_helman.cpp 
+  888  ./a.out 
+  889  g++ main.cpp elgamal.cpp -lntl -lgmp
+  890  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  891  ./a.out 
+  892  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  893  ./a.out 
+  894  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  895  ls
+  896  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  897  g++ library_test.cpp -lntl -lgmp -pthread
+  898  ./a.out 
+  899  g++ library_test.cpp -lntl -lgmp -pthread
+  900  ./a.out 
+  901  mpirun --oversubscribe -np 4 ./a.out 
+  902  vs assgn1.py 
+  903  pluma assgn1.py 
+  904  python3 assgn1.py 
+  905  cat assgn1.py 
+  906  pip3 install pandas
+  907  pip3 install matplotlib
+  908  pluma assgn1.py 
+  909  sudo reboot 
+  910  /bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  911  /bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  912  /usr/local/bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  913  /bin/python3 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  914  python3 MS2321-assgn1.py 
+  915  pip3 install pandas
+  916  pip
+  917  pip3.10 install pandas
+  918  sudo apt update 
+  919  sh pc3
+  920  sh pc3.sh 
+  921  sh pc2.sh 
+  922  uptime -p
+  923  sudo shutdown now
+  924  uptime -p
+  925  sudo reboot 
+  926  python3 tsp_ga.py 
+  927  python3.10 tsp_ga.py 
+  928  python3 tsp_ga.py 
+  929  python3 Traveling\ Salesman\ Problem\ \(TSP\)\ using\ a\ Genetic\ Algorithm.py 
+  930  python3 Traveling\ Salesman\ Problem\ \(TSP\)\ using\ a\ Genetic\ Algorithm.py -lm
+  931  python3 tsp_ga.py 
+  932  printenv > "/tmp/tmp-74227eUqMCxxUWTvV.txt"
+  933  python3 newtsp.py 
+  934  cmatrix 
+  935  cd Desktop/
+  936  cd shell-scripts/
+  937  ls
+  938  cd ..
+  939  ls
+  940  cat funcomds.txt 
+  941  sudo apt install libaa-bin 
+  942  aafire
+  943  sudo install sl
+  944  sudo apt install sl
+  945  sl
+  946  uptime -p
+  947  sudo apt update 
+  948  sudo reboot 
+  949  cd Desktop/shell-scripts/
+  950  sh aptupdate.sh 
+  951  python3 tsp0409.py 
+  952  cd Desktop/
+  953  cd shell-scripts/
+  954  ls
+  955  sh pc2.sh 
+  956  python3 coffee.py 
+  957  pip3 install seaborn
+  958  python3 coffee.py 
+  959  python3 read.py 
+  960  python3 coffee.py 
+  961  python3 read.py 
+  962  python3 coffee.py 
+  963  python3 read.py 
+  964  python3 coffee.py 
+  965  python3 read.py 
+  966  python3 coffee.py 
+  967  python3 coffee-ms2321.py 
+  968  python3 tsp_ga.py 
+  969  python3 newtsp.py 
+  970  python3 tsp0409.py 
+  971  python3 read.py 
+  972  python3 0409tsp2.py 
+  973  python3 0409tsp2.py 
+  974  sudo shutdown now
+  975  ping google.com
+  976  ping 192.168.38.199
+  977  python3
+  978  ipython3
+  979  ping 192.168.6.5
+  980  ping 192.168.6.6
+  981  ping 192.168.38.199
+  982  python3
+  983  ping 192.168.38.199
+  984  history 
+  985  python3 0409tsp2.py 
+  986  cd Desktop/shell-scripts/
+  987  sh pc2.sh 
+  988  uptime -p
+  989  cd Desktop/
+  990  ls
+  991  cd shell-scripts/
+  992  ls
+  993  sh aptupdate.sh 
+  994  apt list --upgradable 
+  995  sudo apt upgrade 
+  996  sudo apt full-upgrade 
+  997  sudo apt upgrade 
+  998  apt --version
+  999  sudo reboot 
+ 1000  sudo apt update 
+ 1001  sudo apt upgrade 
+ 1002  sudo apt update 
+ 1003  sudo apt upgrade 
+ 1004  sudo apt autoremove 
+ 1005  sudo apt upgrade 
+ 1006  ping 192.168.6.5
+ 1007  ping 192.168.6.6
+ 1008  sudo apt update 
+ 1009  ping 192.168.38.199
+ 1010  cd Desktop/shell-scripts/
+ 1011  ls
+ 1012  sh aptupdate.sh 
+ 1013  sudo reboot 
+ 1014  uptime -p
+ 1015  cd Desktop/
+ 1016  cd shell-scripts/
+ 1017  sh aptupdate.sh 
+ 1018  sudo apt autoremove 
+ 1019  sh aptupdate.sh 
+ 1020  cd Desktop/shell-scripts/
+ 1021  sh pc2.sh 
+ 1022  /bin/python3 "/home/suraj/Desktop/python for scientific comp/presentations/codems2321.py"
+ 1023  python3 presentations/codems2321.py 
+ 1024  ls
+ 1025  cd presentations/
+ 1026  ls
+ 1027  python3 codems2321.py 
+ 1028  ping google.co.in
+ 1029  ping 192.168.6.6
+ 1030  ping 192.168.6.4
+ 1031  ping 192.168.38.199
+ 1032  ping 192.168.6.4
+ 1033  ping 192.168.38.199
+ 1034  ping google.com
+ 1035  ping 192.168.38.199
+ 1036  ping 192.168.6.5
+ 1037  ping 192.168.38.199
+ 1038  ping google.com
+ 1039  ping 192.168.38.199
+ 1040  python3
+ 1041  plt.figure() years = data['year'].dropna().value_counts()
+ 1042  years[years > 300].plot(kind='bar',title = 'Years and Records' )
+ 1043  plt.xlabel('Years')
+ 1044  plt.ylabel('Species observed in that year')
+ 1045  plt.legend() plt.show()
+ 1046  years.describe() ipython3
+ 1047  python3
+ 1048  conda
+ 1049  conda activate
+ 1050  jupyter-notebook 
+ 1051  pip3 install pycountry
+ 1052  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1053  cd DLP\ bruteforce/
+ 1054  ls
+ 1055  g++ main.cpp DLP.cpp -lntl -lgmp
+ 1056  ./a.out 
+ 1057  g++ main.cpp DLP.cpp -lntl -lgmp
+ 1058  ./a.out 
+ 1059  cd diffie\ helmon/
+ 1060  ls
+ 1061  cd 3filescode/
+ 1062  g++ main.cpp diffie_helman.cpp 
+ 1063  ./a.out 
+ 1064  g++ main.cpp diffie_helman.cpp 
+ 1065  ./a.out 
+ 1066  history 
+ 1067  history > cryruncommand.txt
+ 1068  cat cryruncommand.txt 
+ 1069  ls
+ 1070  g++ main.cpp DLP.cpp -lntl -lgmp
+ 1071  cd DLP\ bruteforce/
+ 1072  g++ main.cpp DLP.cpp -lntl -lgmp
+ 1073  ./a.out 
+ 1074  cd ..
+ 1075  cd diffie\ helmon/
+ 1076  cd 3filescode/
+ 1077  g++ main.cpp diffie_helman.cpp 
+ 1078  ./a.out 
+ 1079  cd ..
+ 1080  cd elgamal/
+ 1081  ls
+ 1082  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread 
+ 1083  ./a.out 
+ 1084  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread 
+ 1085  ./a.out 
+ 1086  pip install -r requirements.txt 
+ 1087  python3 setup.py 
+ 1088  python3 service_manager.py 
+ 1089  python3 setup.py 
+ 1090  pip install -r requirements.txt 
+ 1091  python3 setup.py 
+ 1092  ls
+ 1093  pip3 install -r requirements.txt 
+ 1094  python3 setup.py 
+ 1095  lsb_release -a
+ 1096  sudo apt-get update 
+ 1097  sudo apt install docker.io 
+ 1098  sudo systemctl enable docker
+ 1099  sudo systemctl status docker
+ 1100  sudo systemctl start docker
+ 1101  sudo docker run hello-world
+ 1102  cd Desktop/
+ 1103  touch denderrorlog.txt
+ 1104  cat denderrorlog.txt 
+ 1105  vim denderrorlog.txt 
+ 1106  cat denderrorlog.txt 
+ 1107  history 
+ 1108  sudo reboot 
+ 1109  sudo apt-get remove docker docker-engine docker.io containerd runc
+ 1110  sudo apt-get update
+ 1111  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+ 1112  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1113  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+ 1114  sudo apt-get update
+ 1115  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 1116  [200~modprobe kvm~
+ 1117  modprobe kvm
+ 1118  modprobe kvm_amd 
+ 1119  systemctl --user start docker-desktop
+ 1120  docker compose version
+ 1121  Docker Compose version v2.29.1
+ 1122  docker --version
+ 1123  Docker version 27.1.1, build 6312585
+ 1124  docker version
+ 1125  Client: 
+ 1126  <...>
+ 1127  docker compose version
+ 1128  systemctl --user enable docker-desktop
+ 1129  echo kYoZNd697F2eM3CcesbMTTANJz9uJyZT
+ 1130  Dockee --version
+ 1131  Docker --version
+ 1132  docker --version 
+ 1133  pip install -r requirements.txt 
+ 1134  python setup.py 
+ 1135  python3 setup.py 
+ 1136  ping reg.dendrite.ai:5043
+ 1137  ping reg.dendrite.i
+ 1138  ping reg.dendrite.ai
+ 1139  python3 setup.py 
+ 1140  echo kYoZNd697F2eM3CcesbMTTANJz9uJyZT
+ 1141  python3 setup.py 
+ 1142  docker-compose
+ 1143  python3 setup.py 
+ 1144  sudo reboot 
+ 1145  cd Desktop/shell-scripts/
+ 1146  sh pc2.sh 
+ 1147  uptime -p
+ 1148  cd Desktop/
+ 1149  ls
+ 1150  cd shell-scripts/
+ 1151  ls
+ 1152  sh pc2.sh 
+ 1153  ls
+ 1154  sh aptupdate.sh 
+ 1155  sudo apt autoremove 
+ 1156  sh aptupdate.sh 
+ 1157  sudo rm /etc/apt/sources.list.d/docker.list
+ 1158  ls
+ 1159  cd ..
+ 1160  ls
+ 1161  sudo rm /etc/apt/sources.list.d/docker.list
+ 1162  sudo apt-get remove --purge docker-ce docker-ce-cli containerd.io
+ 1163  cd Desktop/
+ 1164  ls
+ 1165  cd shell-scripts/
+ 1166  ls
+ 1167  sh aptupdate.sh 
+ 1168  cd Desktop/shell-scripts/
+ 1169  ls
+ 1170  sh pc2.sh 
+ 1171  sudo reboot 
+ 1172  cd Desktop/shell-scripts/
+ 1173  ls
+ 1174  sh aptupdate.sh 
+ 1175  sudo apt autoremove 
+ 1176  ls
+ 1177  cd
+ 1178  cd Desktop/
+ 1179  cd shell-scripts/
+ 1180  ls
+ 1181  cat pc2.sh 
+ 1182  vim pc2.sh 
+ 1183  cat pc2.sh 
+ 1184  cat aptupdate.sh 
+ 1185  cat pc3.sh 
+ 1186  vim scmsuserlogin.sh
+ 1187  sh scmsuserlogin.sh 
+ 1188  ls
+ 1189  sh scmsuserlogin.sh 
+ 1190  uptime -p
+ 1191  cd Desktop/
+ 1192  cd shell-scripts/
+ 1193  sh aptupdate.sh 
+ 1194  cd Desktop/shell-scripts/
+ 1195  sh pc2.sh 
+ 1196  cd Desktop/shell-scripts/
+ 1197  sh pc2.sh 
+ 1198  sudo reboot 
+ 1199  cd Desktop/
+ 1200  cd shell-scripts/
+ 1201  ls
+ 1202  sh pc2.sh 
+ 1203  sh aptupdate.sh 
+ 1204  sh pc2.sh 
+ 1205  cd Desktop/shell-scripts/
+ 1206  sh pc2.sh 
+ 1207  sudo reboot 
+ 1208  sudo apt update 
+ 1209  sudo reboot 
+ 1210  cd Desktop/shell-scripts/
+ 1211  sh pc2.sh 
+ 1212  cd Desktop/
+ 1213  ls
+ 1214  cd shell-scripts/
+ 1215  sh aptupdate.sh 
+ 1216  sudo reboot 
+ 1217  cd Desktop/shell-scripts/
+ 1218  sh pc2.sh 
+ 1219  cd Desktop/
+ 1220  ls
+ 1221  cd shell-scripts/
+ 1222  ls
+ 1223  touch server.py
+ 1224  vim server.py 
+ 1225  python3 server.py 
+ 1226  vim server.py 
+ 1227  car server.py 
+ 1228  cat server.py 
+ 1229  vim server2.py
+ 1230  python3 server2.py 
+ 1231  vim server2.py
+ 1232  python3 server2.py 
+ 1233  cat server2.py 
+ 1234  import socket
+ 1235  ls
+ 1236  cd submit/
+ 1237  mpicc newjacobi_second_version.c 
+ 1238  pirun --oversubscribe -np 4 ./a.out 
+ 1239  mpirun --oversubscribe -np 4 ./a.out 
+ 1240  cd Desktop/
+ 1241  cd shell-scripts/
+ 1242  ls
+ 1243  sh scmsuserlogin.sh 
+ 1244  cd Desktop/shell-scripts/
+ 1245  lls
+ 1246  s
+ 1247  ls
+ 1248  sh scmsuserlogin.sh 
+ 1249  cd Desktop/shell-scripts/
+ 1250  ls
+ 1251  history
+ 1252  cd Desktop/shell-scripts/
+ 1253  ls
+ 1254  sh pc2.sh 
+ 1255  uptime -p
+ 1256  cd Desktop/
+ 1257  ls
+ 1258  cd shell-scripts/
+ 1259  ls
+ 1260  sh aptupdate.sh 
+ 1261  sudo reboot 
+ 1262  python3 aco_tsp.py 
+ 1263  python3 ant_colony.py 
+ 1264  python3 example.py 
+ 1265  python3 ant_colony.py 
+ 1266  python3 newaco.py 
+ 1267  python3 travellingsalesusingSAMS2321.py 
+ 1268  python3 MS2321_ACO.py 
+ 1269  python3 newaco.py 
+ 1270  python3 corrected.py 
+ 1271  python3 newaco.py 
+ 1272  python3 ant_colony.py 
+ 1273  python3 corrected.py 
+ 1274  python3 MS2321aco.py 
+ 1275  mpic++ newquicksort.cpp 
+ 1276  mpirun --oversubscribe -np 4 ./a.out 
+ 1277  ls
+ 1278  mpic++ quicksort.cpp 
+ 1279  history 
+ 1280  mpic++ newquicksort.cpp 
+ 1281  history 
+ 1282  mpirun --oversubscribe -np 4 ./a.out 
+ 1283  mpic++ newquicksort.cpp 
+ 1284  mpirun --oversubscribe -np 4 ./a.out 
+ 1285  mpic++ newquicksort.cpp 
+ 1286  mpirun --oversubscribe -np 4 ./a.out 
+ 1287  mpic++ quicksort.cpp 
+ 1288  mpirun --oversubscribe -np 4 ./a.out 
+ 1289  python3 server.py 
+ 1290  python3 server2.py 
+ 1291  python3 newton.py 
+ 1292  ls
+ 1293  python3 bisection.py 
+ 1294  ipython3 bisection.py 
+ 1295  ipython3 ybisection.py 
+ 1296  ls
+ 1297  python3 bbisection.py 
+ 1298  python3 server.py 
+ 1299  sudo lsof -i :12345
+ 1300  sudo kill -9 1728390
+ 1301  python3 server.py 
+ 1302  sudo lsof -i :12345
+ 1303  python3 server.py 
+ 1304  sudo lsof -i :12345
+ 1305  python3 server.py 
+ 1306  cd 'Desktop/shell-scripts/network assignment/2newtrial'/
+ 1307  ls
+ 1308  python3 server.py 
+ 1309  shutdown_server
+ 1310  fdgsdf
+ 1311  sdgd
+ 1312  dfggd
+ 1313  dhgd
+ 1314  dsgfdg
+ 1315  python3 server.py 
+ 1316  sudo lsof -i :12345
+ 1317  sudo kill -9 1736593
+ 1318  python3 server.py 
+ 1319  sudo lsof -i :12345
+ 1320  python3 server.py 
+ 1321  sudo lsof -i :12345
+ 1322  python3 server.py 
+ 1323  sudo lsof -i :12345
+ 1324  python3 server.py 
+ 1325  ls
+ 1326  cd ..
+ 1327  cd v3/
+ 1328  ls
+ 1329  python3 server.py
+ 1330  hey
+ 1331  hweuihwe
+ 1332  sdf
+ 1333  sdfs
+ 1334  dsf
+ 1335  sdf
+ 1336  sdfadfsfa
+ 1337  python3 server.py
+ 1338  hey
+ 1339  hello
+ 1340  python3 server.py
+ 1341  cd Desktop/shell-scripts/
+ 1342  ls
+ 1343  sh aptupdate.sh 
+ 1344  ping 192.168.6.5
+ 1345  ping 192.168.6.6
+ 1346  ping 192.168.38.19
+ 1347  ping 192.168.38.199
+ 1348  ping google.com
+ 1349  ipython
+ 1350  ipython3
+ 1351  sudo apt install ipython3 
+ 1352  ipyhon3
+ 1353  sudo apt install ipython3 
+ 1354  ipython3 
+ 1355  ls
+ 1356  cd assign\ 7\ matrix\ matrix\ multiplication\ patrition\ into\ 2d\ submatrices/
+ 1357  ls
+ 1358  mpic++ matmatmulti.cpp 
+ 1359  history 
+ 1360  mpirun --oversubscribe -np 4 ./a.out 
+ 1361  mpic++ 25octmat.cpp 
+ 1362  mpirun --oversubscribe -np 4 ./a.out 
+ 1363  mpic++ 25octmat.cpp 
+ 1364  mpirun --oversubscribe -np 4 ./a.out 
+ 1365  mpic++ 25octmat.cpp 
+ 1366  mpirun --oversubscribe -np 4 ./a.out 
+ 1367  g++ daaa.cpp 
+ 1368  ./a.out 
+ 1369  g++ main.cpp DoubleAndAdd.cpp 
+ 1370  ./a.out 
+ 1371  mpic++ awsmat.cpp 
+ 1372  mpirun -np 4 ./a.out 
+ 1373  mpic++ awsmat.cpp 
+ 1374  mpirun --versubscribe -np 4 ./a.out 
+ 1375  mpirun --oversubscribe -np 4 ./a.out 
+ 1376  ls
+ 1377  mpic++ awsmat.cpp 
+ 1378  mpirun --oversubscribe -np 4 ./a.out 
+ 1379  mpic++ awsmat.cpp 
+ 1380  mpirun --oversubscribe -np 4 ./a.out 
+ 1381  mpic++ awsmat.cpp 
+ 1382  mpirun --oversubscribe -np 4 ./a.out 
+ 1383  mpic++ awsmat.cpp 
+ 1384  mpirun --oversubscribe -np 4 ./a.out 
+ 1385  mpic++ awsmat.cpp 
+ 1386  mpirun --oversubscribe -np 4 ./a.out 
+ 1387  mpic++ awsmat.cpp 
+ 1388  mpirun --oversubscribe -np 4 ./a.out 
+ 1389  mpic++ awsmat.cpp 
+ 1390  mpirun --oversubscribe -np 4 ./a.out .
+ 1391  mpic++ awsmat.cpp 
+ 1392  mpirun --oversubscribe -np 4 ./a.out .
+ 1393  mpic++ awsmat.cpp 
+ 1394  mpirun --oversubscribe -np 4 ./a.out .
+ 1395  mpic++ awsmat.cpp 
+ 1396  mpirun --oversubscribe -np 4 ./a.out .
+ 1397  mpic++ awsmat.cpp 
+ 1398  mpirun --oversubscribe -np 4 ./a.out .
+ 1399  mpic++ awsmat.cpp 
+ 1400  mpirun --oversubscribe -np 4 ./a.out .
+ 1401  mpic++ 1awsmat.cpp 
+ 1402  mpirun --oversubscribe -np 4 ./a.out .
+ 1403  mpic++ 1awsmat.cpp 
+ 1404  mpirun --oversubscribe -np 4 ./a.out .
+ 1405  ls
+ 1406  cd ..
+ 1407  ls
+ 1408  cd ll
+ 1409  cd ..
+ 1410  ls
+ 1411  cd assign\ 9\ gauss\ elimination/
+ 1412  ls
+ 1413  mpic++ gauss.cpp 
+ 1414  mpirun --oversubscribe -np 4 ./a.out 
+ 1415  mpic++ gauss.cpp 
+ 1416  mpirun --oversubscribe -np 4 ./a.out 
+ 1417  mpic++ gauss.cpp 
+ 1418  mpirun --oversubscribe -np 4 ./a.out 
+ 1419  mpicc Hello.c 
+ 1420  mpitrun --oversubscribe -np 4 ./a.out 
+ 1421  mpirun --oversubscribe -np 4 ./a.out 
+ 1422  mpirun --oversubscribe -np 7 ./a.out 
+ 1423  mpirun --oversubscribe -np 6 ./a.out 
+ 1424  mpicc Hello.c 
+ 1425  mpirun --oversubscribe -np 6 ./a.out 
+ 1426  mpicc Hello.c 
+ 1427  mpirun --oversubscribe -np 6 ./a.out 
+ 1428  mpicc Hello.c 
+ 1429  mpirun --oversubscribe -np 6 ./a.out 
+ 1430  mpicc Hello.c 
+ 1431  mpirun --oversubscribe -np 6 ./a.out 
+ 1432  mpicc Hello.c 
+ 1433  mpirun --oversubscribe -np 6 ./a.out 
+ 1434  mpicc Hello.c 
+ 1435  mpirun --oversubscribe -np 6 ./a.out 
+ 1436  mpicc Hello.c 
+ 1437  mpirun --oversubscribe -np 6 ./a.out 
+ 1438  mpicc Hello.c 
+ 1439  mpirun --oversubscribe -np 6 ./a.out 
+ 1440  mpicc Hello.c 
+ 1441  mpirun --oversubscribe -np 6 ./a.out 
+ 1442  mpicc Hello.c 
+ 1443  mpirun --oversubscribe -np 6 ./a.out 
+ 1444  mpicc Hello.c 
+ 1445  mpirun --oversubscribe -np 6 ./a.out 
+ 1446  mpicc Hello.c 
+ 1447  mpirun --oversubscribe -np 6 ./a.out 
+ 1448  mpicc Hello.c 
+ 1449  mpirun --oversubscribe -np 6 ./a.out 
+ 1450  mpicc Hello.c 
+ 1451  mpirun --oversubscribe -np 6 ./a.out 
+ 1452  mpicc Hello.c 
+ 1453  mpirun --oversubscribe -np 6 ./a.out 
+ 1454  mpicc Hello.c 
+ 1455  mpirun --oversubscribe -np 6 ./a.out 
+ 1456  mpicc Hello.c 
+ 1457  mpirun --oversubscribe -np 6 ./a.out 
+ 1458  mpicc Hello.c 
+ 1459  mpirun --oversubscribe -np 6 ./a.out 
+ 1460  mpicc Hello.c 
+ 1461  mpirun --oversubscribe -np 6 ./a.out 
+ 1462  mpicc Hello.c 
+ 1463  mpirun --oversubscribe -np 6 ./a.out 
+ 1464  mpicc Hello.c 
+ 1465  mpirun --oversubscribe -np 6 ./a.out 
+ 1466  cd Desktop/
+ 1467  ls
+ 1468  cd shell-scripts/
+ 1469  ls
+ 1470  sh scmsuserlogin.sh 
+ 1471  cd Desktop/shell-scripts/
+ 1472  sh aptupdate.sh 
+ 1473  sudo apt autoremove 
+ 1474  sh aptupdate.sh 
+ 1475  sudo apt autoremove 
+ 1476  sudo reboot 
+ 1477  uptime -p
+ 1478  cd Desktop/shell-scripts/
+ 1479  sh aptupdate.sh 
+ 1480  cd Desktop/shell-scripts/
+ 1481  ls
+ 1482  sh scmsuserlogin.sh 
+ 1483  cd Desktop/
+ 1484  cd shell-scripts/
+ 1485  sh pc2.sh 
+ 1486  /bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/computation lab sem 2/python numerical practices/rootfinding.py"
+ 1487  /bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/computation lab sem 2/python numerical practices/singleeigen.py"
+ 1488  /bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/computation lab sem 2/python numerical practices/prectice.py"
+ 1489  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/computation lab sem 2/python numerical practices/prectice.py"
+ 1490  47
+ 1491  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/computation lab sem 2/python numerical practices/prectice.py"
+ 1492  ping google.com
+ 1493  ping -c 2 google.com
+ 1494  ping -c 12 google.com
+ 1495  traceroute google.com
+ 1496  sudo apt install traceroute
+ 1497  traceroute google.com
+ 1498  traceroute 192.168.6.6
+ 1499  traceroute google.com
+ 1500  ip address 
+ 1501  ip route
+ 1502  netstat
+ 1503  route
+ 1504  sudo apt install net-tools 
+ 1505  netstat
+ 1506  -r netstat
+ 1507  netstat -r
+ 1508  route
+ 1509  ss
+ 1510  pwd
+ 1511  ss >> ss.txt
+ 1512  ss > ss.txt
+ 1513  dig google.com
+ 1514  dig amazon.in
+ 1515  dig apple.com
+ 1516  whois google.com
+ 1517  sudo apt install whois
+ 1518  whois google.com
+ 1519  whois howtogeek.com
+ 1520  curl google.com
+ 1521  wget google.com
+ 1522  wget apple.com
+ 1523  wget samsung.com
+ 1524  ipython3 
+ 1525  sudo apt update 
+ 1526  cd Desktop/
+ 1527  cd shell-scripts/
+ 1528  ls
+ 1529  sh aptupdate.sh 
+ 1530  conda 
+ 1531  anaconda3/
+ 1532  anaconda-navigator
+ 1533  conda activate
+ 1534  conda activate myenv
+ 1535  conda info --envs
+ 1536  conda activate base
+ 1537  spyder
+ 1538  anaconda navigator
+ 1539  anaconda-navigator
+ 1540  cd translate\ app/
+ 1541  Project\python3 -m venv stranslate
+ 1542  Project/python3 -m venv stranslate
+ 1543  cd ..
+ 1544  Project/python3 -m venv stranslate
+ 1545  cd stranslate/
+ 1546  Project/python3 -m venv abc
+ 1547  cd ..
+ 1548  ls
+ 1549  python3 -m venv stranslate
+ 1550  apt install python3.10-venv
+ 1551  sudo apt install python3.10-venv
+ 1552  python3 -m venv stranslate
+ 1553  ls
+ 1554  cd stranslate/
+ 1555  ls
+ 1556  ls -a
+ 1557  ls
+ 1558  scripts\activate
+ 1559  scripts/activate
+ 1560  ls
+ 1561  tree
+ 1562  scripts/activate
+ 1563  ls -a
+ 1564  bin/activate
+ 1565  cd bin/
+ 1566  ls
+ 1567  activate
+ 1568  sh activate
+ 1569  python3 activate
+ 1570  source activate
+ 1571  deactivate 
+ 1572  source activate
+ 1573  deactivate 
+ 1574  virtualenv myenv
+ 1575  sudo apt install python3-virtualenv
+ 1576  virtualenv myenv
+ 1577  cd ..
+ 1578  ls
+ 1579  source myenv/bin/activate
+ 1580  ls
+ 1581  cd myenv/
+ 1582  ls
+ 1583  cd bin/
+ 1584  ls
+ 1585  pip install flask
+ 1586  cd ..
+ 1587  pip uninstall flask
+ 1588  cd bin/
+ 1589  pip uninstall flask
+ 1590  cd ..
+ 1591  pip install flask
+ 1592  cd ..
+ 1593  pip install flask
+ 1594  history > commandhistory.txt

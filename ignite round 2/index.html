@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        select, button {
+            font-size: 16px;
+            padding: 8px;
+            margin-top: 20px;
+        }
+        #message-container {
+            margin-top: 30px;
+            padding: 15px;
+            font-size: 18px;
+            color: #333;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .msg-label {
+            font-weight: bold;
+            font-size: 24px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World API</h1>
+        <label for="language">Choose a language:</label>
+        <select id="language">
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <button onclick="callApi()">Get Message</button>
+
+        <div id="message-container">
+            <p class="msg-label" id="msgText">Your message will appear here.</p>
+            <p id="messageID"></p>
+        </div>
+    </div>
+
+    <script>
+        function callApi() {
+            const language = document.getElementById("language").value;
+            fetch(`http://192.168.6.5:5000/hello?language=${language}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.msgText) {
+                        document.getElementById("msgText").innerText = data.msgText;
+                        document.getElementById("messageID").innerText = `Message ID: ${data.ID}`;
+                    } else {
+                        document.getElementById("msgText").innerText = data.error_message;
+                        document.getElementById("messageID").innerText = '';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById("msgText").innerText = "Error fetching the message.";
+                    console.error("Error:", error);
+                });
+        }
+    </script>
+</body>
+</html>

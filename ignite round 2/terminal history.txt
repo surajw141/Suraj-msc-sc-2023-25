@@ -1,0 +1,131 @@
+
+ 1530  conda 
+ 1531  anaconda3/
+ 1532  anaconda-navigator
+ 1533  conda activate
+ 1534  conda activate myenv
+ 1535  conda info --envs
+ 1536  conda activate base
+ 1537  spyder
+ 1538  anaconda navigator
+ 1539  anaconda-navigator
+ 1540  ls
+ 1541  python3 --version
+ 1542  python3 -m pip install --upgrade pip
+ 1543  python3 -m pip install --upgrade pip3
+ 1544  python3 -m pip install --upgrade pip
+ 1545  python3 -m pip install --upgrade pip3
+ 1546  pip --version
+ 1547  uname -m
+ 1548  curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+ 1549  tar -xvzf postman-linux-x64.tar.gz
+ 1550  ls
+ 1551  cd Postman/
+ 1552  ls
+ 1553  printenv > "/tmp/tmp-41177551zkx7huJb2Ts.txt"
+ 1554  printenv > "/tmp/tmp-4132288JRD9FKj6KSmO.txt"
+ 1555  pip install flask
+ 1556  flask-cors
+ 1557  python-dotenv
+ 1558  requests
+ 1559  urllib3==1.26.6
+ 1560  pip3 install flask flask-cors python-dotenv requests urllib3==1.26.6
+ 1561  pip3 install flask flask-cors python-dotenv requests
+ 1562  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1563  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1564  python3 --version
+ 1565  pip3 install Flask
+ 1566  touch hello_world_api.py
+ 1567  cd translate\ app/
+ 1568  Project\python3 -m venv stranslate
+ 1569  Project/python3 -m venv stranslate
+ 1570  cd ..
+ 1571  Project/python3 -m venv stranslate
+ 1572  cd stranslate/
+ 1573  Project/python3 -m venv abc
+ 1574  cd ..
+ 1575  ls
+ 1576  python3 -m venv stranslate
+ 1577  apt install python3.10-venv
+ 1578  sudo apt install python3.10-venv
+ 1579  python3 -m venv stranslate
+ 1580  ls
+ 1581  cd stranslate/
+ 1582  ls
+ 1583  ls -a
+ 1584  ls
+ 1585  scripts\activate
+ 1586  scripts/activate
+ 1587  ls
+ 1588  tree
+ 1589  scripts/activate
+ 1590  ls -a
+ 1591  bin/activate
+ 1592  cd bin/
+ 1593  ls
+ 1594  activate
+ 1595  sh activate
+ 1596  python3 activate
+ 1597  source activate
+ 1598  deactivate 
+ 1599  source activate
+ 1600  deactivate 
+ 1601  virtualenv myenv
+ 1602  sudo apt install python3-virtualenv
+ 1603  virtualenv myenv
+ 1604  cd ..
+ 1605  ls
+ 1606  source myenv/bin/activate
+ 1607  ls
+ 1608  cd myenv/
+ 1609  ls
+ 1610  cd bin/
+ 1611  ls
+ 1612  pip install flask
+ 1613  cd ..
+ 1614  pip uninstall flask
+ 1615  cd bin/
+ 1616  pip uninstall flask
+ 1617  cd ..
+ 1618  pip install flask
+ 1619  cd ..
+ 1620  pip install flask
+ 1621  history > commandhistory.txt
+ 1622  cd bin/
+ 1623  source activate
+ 1624  pip install python-dotenv
+ 1625  pip install flask-restful
+ 1626  pip3 install --upgrade pip
+ 1627  pip3 install flask flask-core python-dotenv
+ 1628  pwed
+ 1629  pwd
+ 1630  cd ..
+ 1631  touch main.py
+ 1632  mkdir templates
+ 1633  source bin/activate
+ 1634  source bin/deactivate
+ 1635  source deactivate
+ 1636  cd bin/
+ 1637  ls
+ 1638  deactivate 
+ 1639  cd ..
+ 1640  mkdir 14novstranslate
+ 1641  cd 14novstranslate/
+ 1642  python3 -m venv env
+ 1643  source env/bin/activate
+ 1644  pip3 install --upgrade pip
+ 1645  pip3 install flask flask-cors python-dotenv
+ 1646  touch main.py
+ 1647  mkdir templates
+ 1648  touch templates/index.html
+ 1649  code .
+ 1650  ls
+ 1651  python3 main.py 
+ 1652  pip3 install requests
+ 1653  python3 main.py 
+ 1654  code .
+ 1655  ls
+ 1656  python3 hello_world_api.py 
+ 1657  python3 hello
+ 1658  python3 hello_world_api.py 
+ 1659  history > rescript.txt

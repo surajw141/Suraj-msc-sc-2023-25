@@ -6,6 +6,7 @@ const HelloWorld = () => {
     const [language, setLanguage] = useState('');
     const [message, setMessage] = useState('');
 
+    // Fetch the API base URL from config.json
     useEffect(() => {
         fetch('/config.json')
             .then(response => response.json())
@@ -16,6 +17,7 @@ const HelloWorld = () => {
             .catch(err => console.error('Error loading config.json:', err));
     }, []);
 
+    // Fetch the available languages
     useEffect(() => {
         if (apiBaseUrl) {
             fetch(`${apiBaseUrl}/languages`)
@@ -36,64 +38,68 @@ const HelloWorld = () => {
         }
     };
 
+    // Basic styling
+    const styles = {
+        container: {
+            fontFamily: 'Arial, sans-serif',
+            textAlign: 'center',
+            marginTop: '50px',
+            maxWidth: '600px',
+            margin: '0 auto',
+            padding: '20px',
+            border: '1px solid #ccc',
+            borderRadius: '8px',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+        },
+        label: {
+            fontSize: '16px',
+            marginRight: '10px',
+        },
+        select: {
+            fontSize: '16px',
+            padding: '8px',
+            marginRight: '10px',
+        },
+        button: {
+            fontSize: '16px',
+            padding: '8px',
+        },
+        messageContainer: {
+            marginTop: '30px',
+            padding: '15px',
+            fontSize: '18px',
+            color: '#333',
+            backgroundColor: '#f9f9f9',
+            borderRadius: '6px',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        },
+        message: {
+            fontWeight: 'bold',
+            fontSize: '24px',
+            color: '#2c3e50',
+        },
+        error: {
+            color: 'red',
+            fontWeight: 'bold',
+        },
+    };
+
     return (
         <div style={styles.container}>
-            <h1 style={styles.title}>Hello World API</h1> {/* Add this line for the title */}
+            <label style={styles.label}>Select a Language:</label>
             <select style={styles.select} onChange={(e) => setLanguage(e.target.value)}>
-                <option value="">Select a Language</option>
                 {languages.map((lang, index) => (
                     <option key={index} value={lang}>{lang}</option>
                 ))}
             </select>
             <button style={styles.button} onClick={fetchMessage}>Get Message</button>
-            <div style={styles.messageContainer}>
-                <p style={styles.message}>{message}</p>
-            </div>
+            {message && (
+                <div style={styles.messageContainer}>
+                    <p style={styles.message}>{message}</p>
+                </div>
+            )}
         </div>
     );
-};
-
-const styles = {
-    container: {
-        fontFamily: 'Arial, sans-serif',
-        textAlign: 'center',
-        marginTop: '50px',
-        maxWidth: '600px',
-        margin: '0 auto',
-        padding: '20px',
-        border: '1px solid #ccc',
-        borderRadius: '8px',
-        boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    },
-    title: { /* Styling for the title */
-        fontSize: '28px',
-        fontWeight: 'bold',
-        marginBottom: '20px',
-        color: '#333',
-    },
-    select: {
-        fontSize: '16px',
-        padding: '8px',
-        marginRight: '10px',
-    },
-    button: {
-        fontSize: '16px',
-        padding: '8px',
-    },
-    messageContainer: {
-        marginTop: '30px',
-        padding: '15px',
-        fontSize: '18px',
-        color: '#333',
-        backgroundColor: '#f9f9f9',
-        borderRadius: '6px',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-    },
-    message: {
-        fontWeight: 'bold',
-        fontSize: '24px',
-        color: '#2c3e50',
-    },
 };
 
 export default HelloWorld;

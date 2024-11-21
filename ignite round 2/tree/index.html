@@ -56,22 +56,29 @@
     </div>
 
     <script>
+        let apiBaseUrl = '';
+    
+        // Load the base URL from the config.json file
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('./config.json')
+                .then(response => response.json())
+                .then(config => {
+                    apiBaseUrl = config.api_base_url;
+                    console.log(`API Base URL loaded: ${apiBaseUrl}`);
+                })
+                .catch(error => console.error('Error loading config.json:', error));
+        });
+    
+        // Example function using the dynamic base URL
         function callApi() {
             const language = document.getElementById("language").value;
-            fetch(`http://192.168.6.5:5000/hello?language=${language}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
-                    }
-                    return response.json();
-                })
+            fetch(`${apiBaseUrl}/hello?language=${language}`)
+                .then(response => response.json())
                 .then(data => {
                     if (data.msgText) {
                         document.getElementById("msgText").innerText = data.msgText;
-                        document.getElementById("messageID").innerText = `Message ID: ${data.ID}`;
                     } else {
                         document.getElementById("msgText").innerText = data.error_message;
-                        document.getElementById("messageID").innerText = '';
                     }
                 })
                 .catch(error => {
@@ -80,5 +87,7 @@
                 });
         }
     </script>
+    
+    
 </body>
 </html>

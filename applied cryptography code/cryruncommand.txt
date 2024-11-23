@@ -1,0 +1,1000 @@
+   55  sudo reboot 
+   56  sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+   57  curl -O https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+   58  bash ~/Downloads/Anaconda3-2024.06-1-Linux-x86_64.sh
+   59  source ~/.bashrc 
+   60  conda config --set auto_activate_base False
+   61  ./configure --enable-optimizations --with-ensurepip=install
+   62  make -j$(nproc)
+   63  sudo make altinstall
+   64  python3.12 --version
+   65  wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/shiftkey-packages.gpg > /dev/null 
+   66  sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list'
+   67  sudo apt update && sudo apt install github-desktop
+   68  python -v
+   69  python3 -v
+   70  python --version
+   71  python3 --version
+   72  which python3
+   73  which python
+   74  conda info
+   75  conda update --all
+   76  conda install anaconda-navigator
+   77  anaconda-navigator
+   78  conda anaconda-navigator
+   79  anaconda-navigator
+   80  source ~/anaconda3/bin/activate 
+   81  anaconda-navigator 
+   82  cd Desktop/
+   83  ls
+   84  cat funcomds.txt 
+   85  [200~vim         # version 2:8.2.3995-1ubuntu2.17, or
+   86  sudo apt install vim-tiny    # version 2:8.2.3995-1ubuntu2.17
+   87  python3
+   88  pip install geopy
+   89  sudo apt install python3-pip
+   90  pip install geopy
+   91  pip show geopy
+   92  python3
+   93  cd Desktop/
+   94  ls
+   95  mkdir goresirpython
+   96  cd goresirpython/
+   97  ls
+   98  vim geopytrial.py
+   99  ls
+  100  cat geopytrial.py 
+  101  python3 geopytrial.py 
+  102  vim geopytrial.py
+  103  python3 geopytrial.py 
+  104  cd ..
+  105  ls
+  106  cd goresirpython/
+  107  python3
+  108  python3 geopytrial.py 
+  109  ls
+  110  mv geopytrial.py pune_location_using_geopy.py
+  111  pip install geopy
+  112  ls
+  113  cat pune_location_using_geopy.py 
+  114  ls
+  115  vim list_tuple.py
+  116  sudo apt install vim
+  117  uptime -p
+  118  google-chrome
+  119  ubuntu-drivers devices
+  120  ubuntu-drivers device
+  121  ubuntu-drivers devices
+  122  cd Desktop/
+  123  sh aptupdate.sh 
+  124  sudo apt autoremove 
+  125  sh aptupdate.sh 
+  126  sh pc2.sh 
+  127  sudo reboot 
+  128  python3 readCities.py 
+  129  pip install numpy
+  130  python3 readCities.py 
+  131  conda 
+  132  anaconda-navigator
+  133  conda
+  134  conda anaconda-navigator
+  135  anaconda-navigator
+  136  conda activate myenv
+  137  conda info --envs
+  138  conda activate base
+  139  anaconda-navigator
+  140  conda activate myenv
+  141  conda info -
+  142  conda activate base
+  143  anaconda-navigator 
+  144  xit
+  145  exit
+  146  stope
+  147  stop
+  148  conda deactivare
+  149  conda deactivate
+  150  sudo apt update 
+  151  apt list --upgradable 
+  152  apt list -a --upgradable 
+  153  sudo apt upgrade 
+  154  uptime -p
+  155  sudo reboot 
+  156  python3
+  157  python3 --version
+  158  sudo apt update 
+  159  sudo apt install software-properties-common 
+  160  sudo add-apt-repository ppa:deadsnakes/ppa
+  161  sudo apt update 
+  162  sudo apt install python3.12.4
+  163  sudo apt install 'python3.12
+  164  sudo apt install python3.12
+  165  python3
+  166  python3 --version
+  167  python3
+  168  python --version
+  169  python3.12
+  170  sudo apt install 3.12.4
+  171  sudo apt install cmatrix
+  172  cmatrix 
+  173  ssh suraj@192.168.6.20
+  174  ping https://nptel.ac.in/courses
+  175  ping nptel.ac.in/courses
+  176  ping nptel.ac.in
+  177  conda activate bas
+  178  conda activate base
+  179  anaconda-navigator 
+  180  cd Desktop/
+  181  sh aptupdate.sh 
+  182  sudo apt autoremove 
+  183  conda activate base
+  184  anaconda-navigator 
+  185  conda deactivate
+  186  cd Desktop/
+  187  sh pc2.sh 
+  188  conda 
+  189  conda activate base
+  190  anaconda-navigator 
+  191  conda deactivate base
+  192  conda deactivate
+  193  uptime -p
+  194  apps.scms.unipune.ac.in/moodle
+  195  apps.scms.unipune.ac.in/
+  196  apps.scms.unipune.ac.in
+  197  ping apps.scms.unipune.ac.in
+  198  ping 8.8.8.8
+  199  ping 10.10.10.254
+  200  conda activate base
+  201  anaconda-navigator 
+  202  cd Desktop/
+  203  ls
+  204  sh aptupdate.sh 
+  205  exit 
+  206  google-chrome
+  207  ping 192.168.38.199
+  208  ps -l
+  209  conda activate base
+  210  anaconda-navigator 
+  211  conda deactivate
+  212  cd Desktop/
+  213  sh aptupdate.sh 
+  214  cd Desktop/
+  215  sd pc2.sh 
+  216  sh pc2.sh 
+  217  conda activate base
+  218  anaconda-navigator 
+  219  conda deactivate
+  220  sudo reboot 
+  221  ping campus.unipune.ac.in/CCEP/
+  222  ping campus.unipune.ac.in
+  223  cd Desktop/
+  224  touch limaye sir.txt
+  225  vim sir.txt 
+  226  exit 
+  227  printenv > "/tmp/tmp-210203cDozyj2VKviA.txt"
+  228  printenv > "/tmp/tmp-228117a3AvaLmFUW3A.txt"
+  229  /usr/local/bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day10_file_handling.py"
+  230  ~~/usr/local/bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day10_file_handling.py"
+  231  /usr/local/bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day10_file_handling.py"
+  232  conda activate base
+  233  anaconda-navigator 
+  234  ping 10.20.38.135
+  235  ping google.com
+  236  sudo reboot 
+  237  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/problem solving/1st.py"
+  238  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/problem solving/2.number incrments.py"
+  239  cd Desktop/
+  240  ls
+  241  cd parallel\ comp/
+  242  ls
+  243  cd assign\ 2\ sum\ of\ numbers new assign\ 
+  244  cd assign\ 2\ sum\ of\ numbers\ new\ improved/
+  245  ls
+  246  cat add.c 
+  247  exit 
+  248  pip --version
+  249  pip install geopy
+  250  sudo pip install geopy
+  251  sudo pip install numpy
+  252  sudo pip install pylab
+  253  sudo pip install random
+  254  pip show geopy
+  255  pip show scipy
+  256  pip show pylab
+  257  sudo pip install pylab
+  258  pip install matplotlib
+  259  python3.12
+  260  sudo pip install Streamlit
+  261  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day11_.py"
+  262  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day11_.py"
+  263  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Python practices/day11_.py"
+  264  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  265  history 
+  266  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/problems.py"
+  267  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  268  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  269  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  270  pip show geopy scipy numpy
+  271  pip show pylab
+  272  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/test.py"
+  273  python3 test.py 
+  274  python3.12 test.py 
+  275  pippip3.10 show numpy
+  276  pip3.12 show numpy
+  277  pip3.10 show numpy
+  278  /bin/python3.12 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/test.py"
+  279  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/test.py"
+  280  /home/suraj/anaconda3/bin/python
+  281  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  282  ping google.co.in
+  283  conda activate base
+  284  vivobook
+  285  anaconda-navigator 
+  286  python3
+  287  python3 trav_salesman_using_SA.py 
+  288  python3.10 trav_salesman_using_SA.py 
+  289  python3.12 trav_salesman_using_SA.py 
+  290  cmatrix 
+  291  cat aptupdate.sh 
+  292  last -x shutdown | head -n 1
+  293  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  294  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  295  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  296  python3.12 trav_salesman_using_SA.py 
+  297  sudo ubuntu-drivers autoinstall
+  298  sudo apt-get intall -y mesa-utils libgl1-mesa-glx
+  299  sudo apt-get install -y mesa-utils libgl1-mesa-glx
+  300  sudo apt install synaptic
+  301  sudo synaptic
+  302  sudo reboot 
+  303  last
+  304  /home/suraj/anaconda3/bin/python "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  305  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  306  sudo apt update
+  307  sudo apt install --reinstall libgl1-mesa-dri libgl1-mesa-glx
+  308  ls /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+  309  ls /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+  310  sudo apt install xserver-xorg-video-nouveau
+  311  sudo apt install nvidia-driver
+  312  sudo apt update
+  313  sudo apt upgrade
+  314  export LIBGL_DRIVERS_PATH=/usr/lib/x86_64-linux-gnu/dri
+  315  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.12.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  316  sudo apt-get install gnome-shell-extension-appmenu
+  317  sudo apt-get install appmenu-gtk-module
+  318  /bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  319  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  320  pip3 install scipy
+  321  pip3 install geopy
+  322  pip3 install matplotlib
+  323  pip3 install scipy/usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  324  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  325  which python3
+  326  python3 --version
+  327  pip -V
+  328  pip3 -V
+  329  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/trav_salesman_using_SA.py"
+  330  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/test.py"
+  331  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/readCities.py"
+  332  /usr/bin/python3 "/home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25/Optimization _codes/opt_goresir/pune_location_using_geopy.py"
+  333  ping 192.168.38.199
+  334  ping 10.20.50.254
+  335  ip
+  336  ip a
+  337  ip -a
+  338  ipconfig
+  339  ifconfig
+  340  ping 10.20.50.254
+  341  ping 192.168.38.199
+  342  ping 10.20.50.254
+  343  ping 192.168.38.199
+  344  ping 10.20.50.254
+  345  ping google.com
+  346  ping 192.168.6.6
+  347  ping 192.168.38.199
+  348  ping 10.20.50.254
+  349  ping 192.168.38.199
+  350  uptime -p
+  351  cd Desktop/
+  352  ls 
+  353  sh pc2.sh 
+  354  cd De
+  355  sh aptupdate.sh 
+  356  conda activate base
+  357  anaconda-navigator 
+  358  sudo reboot 
+  359  uptime -p
+  360  cd Desktop/
+  361  ls
+  362  sh aptupdate.sh 
+  363  sh pc2.sh 
+  364  touch new.py
+  365  python3 new.py 
+  366  cd de
+  367  cd Desktop/
+  368  ls
+  369  sh aptupdate.sh 
+  370  cd Desktop/
+  371  ls
+  372  sh aptupdate.sh 
+  373  sh pc2.sh 
+  374  ping google.com
+  375  sudo apt update 
+  376  cd Desktop/
+  377  sh aptupdate.sh 
+  378  [200~sudo apt-get install talk
+  379  ~sudo apt-get install talk
+  380  sudo apt-get install talk
+  381  sudo service ntalk start
+  382  man talk
+  383  talk suraj@192.168.6.6
+  384  sudo apt-get install talk
+  385  sudo apt-get install ntalk
+  386  write suraj@192.168.6.6
+  387  write suraj
+  388  man write
+  389  write suyash@192.168.6.10
+  390  sudo write suyash@192.168.6.10
+  391  sudo write suyash@suyashpc
+  392  sudo write suyash@192.168.6.10
+  393  sudo wall suyash@192.168.6.10
+  394  sudo wall suyash@192.168.6.10 "HI"
+  395  sudo write suraj@192.168.6.6
+  396  sudo wall suraj@192.168.6.6 "HI"
+  397  sudo write suraj@192.168.6.6
+  398  write suraj@192.168.6.6
+  399  sudo write suraj@192.168.6.6
+  400  echo "Hey" | wall
+  401  wall
+  402  wall suraj
+  403  wall suraj@192.168.6.6
+  404  wall suraj@192.168.6.6 "Hey"
+  405  cd Desktop/
+  406  sh aptupdate.sh 
+  407  uptime -p
+  408  sudo reboot 
+  409  ls -a
+  410  ls -al
+  411  cd Desktop/
+  412  ln -s home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25 parallel-programs
+  413  ln -s home/suraj/surajprojects/git desk/ShreeRam/Suraj-msc-sc-2023-25/Suraj-msc-sc-2023-25 shortcut/
+  414  ping 192.168.6.6
+  415  ping 192.168.38.199
+  416  cd Desktop/
+  417  ls
+  418  cd shell-scripts/
+  419  sh aptupdate.sh 
+  420  vim aptupdate.sh 
+  421  sh aptupdate.sh 
+  422  sh pc2.sh 
+  423  sudo reboot 
+  424  g++ main.cpp -lntl -lgmp -pthread
+  425  htop 
+  426  g++ main.cpp -lntl -lgmp -pthread
+  427  time ./a.out 
+  428  ./configure 
+  429  make
+  430  sudo make install 
+  431  ./configure 
+  432  make
+  433  sudo make install 
+  434  ./configure 
+  435  sudo apt install m4
+  436  make clean 
+  437  ./configure NTL_GMP_LIP=on
+  438  ./configure NTL_GMP_LIP=on GMP_PREFIX=/usr/local
+  439  make
+  440  sudo make install
+  441  ./configure 
+  442  make
+  443  sudo make install
+  444  history 
+  445  ./configure 
+  446  make
+  447  ./configure 
+  448  make
+  449  sudo make install
+  450  ping google.com
+  451  date
+  452  cd Desktop/
+  453  cd ..
+  454  cd Downloads/
+  455  ls
+  456  cd
+  457  sudo apt install libgmp-dev
+  458  /srv/c
+  459  /src
+  460  cd  /src
+  461  ls
+  462  cd
+  463  htop 
+  464  cd Desktop/
+  465  ls
+  466  cd shell-scripts/
+  467  ls
+  468  sh pc2.sh 
+  469  sudo reboot 
+  470  mpicc Hello.c 
+  471  sudo apt install mpich 
+  472  mpicc Hello.c 
+  473  mpirun --oversubscribe -n 10 ./a.out 
+  474  mpirun -np 4 ./a.out 
+  475  mpirun --oversubscribe -n 4 ./a.out 
+  476  mpirun --oversubscribe -n 8 ./a.out 
+  477  mpirun --oversubscribe -np 8 ./a.out 
+  478  mpirun --oversubscribe -np 4 ./a.out 
+  479  mpirun --oversubscribe -np 8 ./a.out 
+  480  mpirun -np 4 ./a.out 
+  481  ssh suraj@192.168.6.20
+  482  232001
+  483  ssh suraj@192.168.6.20
+  484  mpirun --oversubscribe -np 8 ./a.out 
+  485  mpirun -np84 ./a.out 
+  486  mpirun -np 8 ./a.out 
+  487  mpirun -np 4 ./a.out 
+  488  mpirun -n 4 ./a.out 
+  489  mpirun --oversubscribe -n 8 ./a.out 
+  490  mpirun -n 4 ./a.out 
+  491  make
+  492  Make
+  493  sh make.sh 
+  494  sh make.sh 
+  495  export rows=\<number of matrix rows\>
+  496  mpic++ MPIVMM
+  497  mpicc Hello.c 
+  498  mpirun -n 4 ./a.out 
+  499  mpic++ MPIVMM.cpp 
+  500  mpirun -n 8 ./a.out 
+  501  mpirun -n 4 ./a.out 
+  502  mpiexec -n 10 ./a.outt
+  503  mpiexec -n 10 ./a.out
+  504  mpirun --oversubscribe -np 10 ./a.out 
+  505  mpirun --oversubscribe -n 10 ./a.out 
+  506  mpiexec --oversubscribe -n 10 ./a.out 
+  507  mpic++ MPIVMM.cpp 
+  508  mpiexec --oversubscribe -n 10 ./a.out 
+  509  mpirun -n 4 ./a.out 
+  510  mpic++ MPIVMM.cpp 
+  511  mpiexec --oversubscribe -n 10 a.out 
+  512  mpirun -n 4 ./a.out 
+  513  mpirun -n 5 ./a.out 
+  514  mpirun -n 4 ./a.out 
+  515  mpirun --oversubscribe -n 10 ./a.out 
+  516  mpiexec --oversubscribe -n 10 ./a.out 
+  517  mpic++ MPIVMM.cpp 
+  518  mpirun --oversubscribe -n 10 ./a.out 
+  519  mpiexec --oversubscribe -n 12 ./a.out 
+  520  mpirun --oversubscribe -n 12 ./a.out 
+  521  mpirun -n 2 ./a.out 
+  522  mpic++ MPIVMM.cpp 
+  523  mpirun -n 4 ./a.out 
+  524  mpirun -n 5 ./a.out 
+  525  mpirun -n 4 ./a.out 
+  526  mpic++ MPIVMM.cpp 
+  527  mpirun -n 5 ./a.out 
+  528  cd Desktop/
+  529  cd ..
+  530  cd Desktop/shell-scripts/
+  531  sh pc2.sh 
+  532  mpicc add.c 
+  533  mpirun --oversubscribe -n 4 ./a.out 
+  534  mpicc parallel_sum.c 
+  535  mpirun --oversubscribe -n 6 ./a.out 
+  536  mpirun --oversubscribe -n 4 ./a.out 
+  537  mpirun -n 4 ./a.out 
+  538  mpicc parallel_sum.c 
+  539  mpirun -n 4 ./a.out 
+  540  mpirun -n 2 ./a.out 
+  541  mpirun -n 1 ./a.out 
+  542  mpicc parallel_sum.c 
+  543  mpirun -n 4 ./a.out 
+  544  mpirun -np 1 ./a.out 
+  545  mpirun -np 4 ./a.out 
+  546  mpicc parallel_sum.c 
+  547  mpirun -np 4 ./a.out 
+  548  mpirun -np 2 ./a.out 
+  549  mpic++ MPIVMM.cpp 
+  550  mpirun -n 5 ./a.out 
+  551  mpirun -n 10 ./a.out 
+  552  mpirun --oversubscribe -n 10 ./a.out 
+  553  mpirun --oversubscribe -n 15 ./a.out 
+  554  mpirun --oversubscribe -n 5 ./a.out 
+  555  mpic++ trial.cpp 
+  556  mpirun --oversubscribe -n 5 ./a.out 
+  557  mpirun --oversubscribe -n 4 ./a.out 
+  558  mpirun --oversubscribe -n 3 ./a.out 
+  559  mpirun --oversubscribe -n 8 ./a.out 
+  560  mpic++ trial.cpp 
+  561  mpirun --oversubscribe -n 8 ./a.out 
+  562  mpic++ trial.cpp 
+  563  mpirun --oversubscribe -n 8 ./a.out 
+  564  mpirun --oversubscribe -n 10 ./a.out 
+  565  mpic++ trial.cpp 
+  566  mpirun --oversubscribe -n 8 ./a.out 
+  567  mpirun --oversubscribe -n 10 ./a.out 
+  568  mpic++ trial.cpp 
+  569  mpirun --oversubscribe -n 8 ./a.out 
+  570  mpirun --oversubscribe -n 5 ./a.out 
+  571  mpirun -n 5 ./a.out 
+  572  mpirun -n 4 ./a.out 
+  573  mpirun -n 5 ./a.out 
+  574  mpic++ MPIVMM.cpp 
+  575  mpirun -n 5 ./a.out 
+  576  mpirun -n 6 ./a.out 
+  577  mpirun -n 7 ./a.out 
+  578  mpirun -n 8 ./a.out 
+  579  mpirun --oversubscribe -n 8 ./a.out 
+  580  mpirun --oversubscribe -n 10 ./a.out 
+  581  mpirun --oversubscribe -n 15 ./a.out 
+  582  mpic++ MPIVMM.cpp 
+  583  mpirun --oversubscribe -n 10 ./a.out 
+  584  mpirun --oversubscribe -n 8 ./a.out 
+  585  uptime -p
+  586  sudo reboot 
+  587  mpicc Hello.c 
+  588  mpirun -n 4 ./a.out 
+  589  ls
+  590  vim trialsum.c 
+  591  mpicc trialsum.c 
+  592  mpirun --oversubscribe -n 8 ./a.out 
+  593  mpicc sumpar.c 
+  594  mpirun -n 4 ./a.out 
+  595  mpirun -n54 ./a.out 
+  596  mpirun -n 5 ./a.out 
+  597  mpirun -n 6 ./a.out 
+  598  mpirun -n 7 ./a.out 
+  599  mpirun --oversubscribe -n 7 ./a.out 
+  600  mpirun --oversubscribe -n 8 ./a.out 
+  601  mpicc trialsum.c 
+  602  ls
+  603  mpirun --oversubscribe -n 8 ./a.out 
+  604  mpirun --oversubscribe -n 9 ./a.out 
+  605  mpirun --oversubscribe -n 11 ./a.out 
+  606  mpicc trialsum.c 
+  607  mpirun --oversubscribe -n 11 ./a.out 
+  608  mpicc trialsum.c 
+  609  mpirun --oversubscribe -n 11 ./a.out 
+  610  mpicc trialsum.c 
+  611  mpirun --oversubscribe -n 11 ./a.out 
+  612  mpicc trialsum.c 
+  613  mpirun --oversubscribe -n 11 ./a.out 
+  614  mpicc trialsum.c 
+  615  mpirun --oversubscribe -n 11 ./a.out 
+  616  mpicc Hello.c 
+  617  mpicc add.c 
+  618  mpirun -n 4 ./a.out 
+  619  mpirun -n  ./a.out 
+  620  mpirun -n 3 ./a.out 
+  621  mpirun -n 6 ./a.out 
+  622  mpirun -n7 ./a.out 
+  623  mpirun -n 7 ./a.out 
+  624  mpirun parallel_sum.c 
+  625  mpicc parallel_sum.c 
+  626  mpirun -n 4 ./a.out 
+  627  mpicc parallel_sum.c 
+  628  mpirun -n 4 ./a.out 
+  629  mpicc parallel_sum.c 
+  630  mpirun -n 4 ./a.out 
+  631  mpirun -n 5 ./a.out 
+  632  mpicc summ.c 
+  633  sudo apt-get install build-essential
+  634  sudo apt-get install libstdc++-11-dev
+  635  sudo apt-get install build-essential
+  636  sudo apt-get install libstdc++-11-dev
+  637  mpicc parallel_sum.c 
+  638  mpirun -n 4 ./a.out 
+  639  mpirun -n 6 ./a.out 
+  640  mpirun -n 5 ./a.out 
+  641  ls
+  642  mpicc add.c 
+  643  mpirun -n 4 ./a.out 
+  644  mpirun -n 3 ./a.out 
+  645  mpirun -n 2 ./a.out 
+  646  mpirun -n 5 ./a.out 
+  647  mpirun -n 6 ./a.out 
+  648  mpirun -n 7 ./a.out 
+  649  mpirun -n 8 ./a.out 
+  650  mpirun -n 9 ./a.out 
+  651  mpirun -n 10 ./a.out 
+  652  mpirun -n 11 ./a.out 
+  653  mpirun -n 12 ./a.out 
+  654  mpicc add.c 
+  655  mpirun -n 12 ./a.out 
+  656  mpirun -n 11 ./a.out 
+  657  mpirun -n 10 ./a.out 
+  658  mpirun -n 8 ./a.out 
+  659  mpirun -n 7 ./a.out 
+  660  mpirun -n 8 ./a.out 
+  661  mpirun -n 6 ./a.out 
+  662  mpirun -n 7 ./a.out 
+  663  mpirun --oversubscribe -n 7 ./a.out 
+  664  mpicc parallel_sum.c 
+  665  mpirun -n 4 ./a.out 
+  666  mpirun -n 8 ./a.out 
+  667  mpirun --oversubscribe -n 8 ./a.out 
+  668  mpirun --oversubscribe -n 10 ./a.out 
+  669  uptime 
+  670  uptime -p
+  671  exit 
+  672  ping google.com
+  673  ping 192.168.38.199
+  674  ping google.com
+  675  exit 
+  676  mpicc integrationBoolesMethod_L3.cpp 
+  677  mpicc integrationBoolesMethod_L3.cpp 
+  678  mpic++ integrationBoolesMethod_L3.cpp 
+  679  mpirun -n 4 ./a.out 
+  680  mpirun -np 4 ./a.out 
+  681  mpirun --oversubscribe -np 4 ./a.out 
+  682  mpirun --oversubscribe -np 8 ./a.out 
+  683  mpirun --oversubscribe -np 9 ./a.out 
+  684  mpirun --oversubscribe -np 10 ./a.out 
+  685  mpic++ integrationBoolesMethod_L3.cpp -lm
+  686  mpirun --oversubscribe -np 10 ./a.out 
+  687  mpirun --oversubscribe -np 9 ./a.out 
+  688  mpirun --oversubscribe -np 8 ./a.out 
+  689  mpirun --oversubscribe -np 10 ./a.out 
+  690  mpirun --oversubscribe -np 9 ./a.out 
+  691  mpirun --oversubscribe -np 4 ./a.out 
+  692  mpic++ integrationBoolesMethod_L3.cpp -lm
+  693  mpirun --oversubscribe -np 4 ./a.out 
+  694  mpirun --oversubscribe -np 9 ./a.out 
+  695  ls
+  696  pwd
+  697  tree
+  698  cd Desktop/
+  699  tree
+  700  exit 
+  701  printenv > "/tmp/tmp-8471739E5tgiVov2jF.txt"
+  702  mpic++ integrationBoolesMethod_L3.cpp -lm
+  703  mpirun --oversubscribe -np 4 ./a.out 
+  704  mpirun --oversubscribe -np 5 ./a.out 
+  705  mpirun --oversubscribe -np 6 ./a.out 
+  706  mpirun --oversubscribe -np 7 ./a.out 
+  707  mpirun --oversubscribe -np 8 ./a.out 
+  708  mpirun --oversubscribe -np 88 ./a.out 
+  709  mpirun --oversubscribe -np 888 ./a.out 
+  710  mpirun --oversubscribe -np 100 ./a.out 
+  711  mpirun --oversubscribe -np 200 ./a.out 
+  712  mpirun --oversubscribe -np 300 ./a.out 
+  713  mpirun --oversubscribe -np 400 ./a.out 
+  714  uname -m
+  715  uptime -p
+  716  cd Desktop/
+  717  ls
+  718  cd shell-scripts/
+  719  sh aptupdate.sh 
+  720  history 
+  721  htop 
+  722  history 
+  723  cd Dea
+  724  cd Desktop/shell-scripts/
+  725  sh aptupdate.sh 
+  726  sh pc2.sh 
+  727  [200~g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  728  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  729  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp -lthread
+  730  g++ main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  731  g++ main.cpp DLP.cpp -o dlp_program -I/usr/local/include -L/usr/local/lib -lntl -lgmp
+  732  ./dlp_program 
+  733  g++ test.cpp 
+  734  g++ test.cpp -lntl -lgmp
+  735  ./a.out 
+  736  g++ main.cpp -lntl -lgmp
+  737  g++ main.cpp -lntl -lgmp -lthread
+  738  g++ main.cpp -lntl -lgmp
+  739  g++ main.cpp DLP.cpp -lntl -lgmp
+  740  ./a.out 
+  741  g++ main.cpp DLP.cpp -lntl -lgmp
+  742  ./a.out 
+  743  g++ -g main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  744  gdb ./dlp_program 
+  745  g++ -g main.cpp DLP.cpp -o dlp_program -lntl -lgmp
+  746  ./dlp_program 
+  747  g++ main.cpp -lntl -lgmp
+  748  ./a.out 
+  749  g++ main.cpp diffie_helman.h -lgmp -lntl
+  750  g++ main.cpp diffie_helman.cpp -lgmp -lntl
+  751  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  752  g++ -g main.cpp diffie_helman.cpp -o diffie_helman_program
+  753  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  754  [200~g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  755  g++ main.cpp diffie_helman.cpp -o diffie_helman_program
+  756  g++ main.cpp diffie_helman.cpp -lntl -lgmp
+  757  ./a.out 
+  758  g++ main.cpp elgamal.cpp -o elgamal_program -lntl -lgmp
+  759  g++ main.cpp elgamal.cpp -lgmp -lntl
+  760  grep sudo funcomds.txt 
+  761  grep install funcomds.txt 
+  762  grep funcomds.txt 
+  763  grep su* funcomds.txt 
+  764  grep su** funcomds.txt 
+  765  sudo apt update > update.txt
+  766  tree > update.txt
+  767  tree >> update.txt
+  768  tree > update.txt
+  769  ls
+  770  ls > update.txt 
+  771  ls > update.txt | grep assignment.txt 
+  772  grep Here* assignment.txt | > update.txt
+  773  grep Here* assignment.txt
+  774  grep Here* assignment.txt > update.txt 
+  775  grep Here** assignment.txt > update.txt 
+  776  cd ..
+  777  find Desktop/ass
+  778  find Desktop/Study\ material/
+  779  find Desktop/Study\ material/ -iname 
+  780  find Desktop/Stud -iname 
+  781  find Desktop/Stud -name
+  782  cd Desktop/
+  783  ls
+  784  nano update.txt 
+  785  mv update.txt update2.txt
+  786  ls
+  787  cat update2.txt 
+  788  cat update2.txt > update2.txt 
+  789  cat update2.txt 
+  790  echo "OS Patches" > update2.txt 
+  791  cat update2.txt 
+  792  sudo reboot 
+  793  ls
+  794  cd matrixvec\ multi/
+  795  ls
+  796  g++ matvec.cpp 
+  797  ./a.out 
+  798  g++ parrmatvec.cpp 
+  799  g++ matvec.cpp 
+  800  ./a.out 
+  801  g++ matvec.cpp 
+  802  ./a.out 
+  803  g++ parrmatvec.cpp 
+  804  mpic++ parrmatvec.cpp 
+  805  ./a.out 
+  806  mpic++ parrmatvec.cpp 
+  807  mpirun --oversubscribe -np 4 ./a.out 
+  808  mpirun --oversubscribe -np 5 ./a.out 
+  809  mpirun --oversubscribe -np 6 ./a.out 
+  810  mpirun --oversubscribe -np 7 ./a.out 
+  811  mpirun --oversubscribe -np 8 ./a.out 
+  812  mpirun --oversubscribe -np 9 ./a.out 
+  813  mpirun --oversubscribe -np 3 ./a.out 
+  814  mpic++ multiplication.cpp 
+  815  mpic++ online.cpp 
+  816  mpirun --oversubscribe -np 4 ./a.out 
+  817  mpic++ online.cpp 
+  818  mpirun --oversubscribe -np 4 ./a.out 
+  819  mpirun --oversubscribe -np 5 ./a.out 
+  820  mpirun --oversubscribe -np 3 ./a.out 
+  821  mpirun --oversubscribe -np 2 ./a.out 
+  822  mpirun --oversubscribe -np 6 ./a.out 
+  823  mpic++ bookref.cpp 
+  824  mpic++ parrmatvec.cpp 
+  825  ./a.out 
+  826  mpirun --oversubscribe -np 4 ./a.out 
+  827  mpirun --oversubscribe -np 5 ./a.out 
+  828  mpirun --oversubscribe -np 8 ./a.out 
+  829  tree
+  830  pluma MPIVMM.cpp 
+  831  ls
+  832  mpic++ MPIVMM.cpp 
+  833  mpirun --oversubscribe -np 5 ./a.out 
+  834  mpic++ MPIVMM.cpp 
+  835  mpirun --oversubscribe -np 8 ./a.out 
+  836  mpic++ MPIVMM.cpp 
+  837  mpirun --oversubscribe -np 8 ./a.out 
+  838  vim matvecmult.cpp
+  839  mpic++ matvecmult.cpp 
+  840  ./a.out 
+  841  mpirun --oversubscribe -np 4 ./a.out 
+  842  mpirun --oversubscribe -np 5 ./a.out 
+  843  mpirun --oversubscribe -np 6 ./a.out 
+  844  mpirun --oversubscribe -np 7 ./a.out 
+  845  cat matvecmult.cpp 
+  846  vim matvecmult.cpp
+  847  nano matvecmult.cpp
+  848  pluma matvecmult.cpp 
+  849  touch matrix_vector_input.txt
+  850  vim matrix_vector_input.txt 
+  851  mpic++ matvecmult.cpp 
+  852  mpirun --oversubscribe -np 7 ./a.out 
+  853  mpirun --oversubscribe -np 5 ./a.out 
+  854  mpirun --oversubscribe -np 4 ./a.out 
+  855  mpirun --oversubscribe -np 3 ./a.out 
+  856  mpirun --oversubscribe -np 2 ./a.out 
+  857  pluma matrix_vector_input.txt 
+  858  mpic++ matvecmult.cpp 
+  859  mpirun --oversubscribe -np 2 ./a.out 
+  860  mpirun --oversubscribe -np 5 ./a.out 
+  861  mpirun --oversubscribe -np 4 ./a.out 
+  862  mpirun --oversubscribe -np 6 ./a.out 
+  863  mpic++ matvecmult.cpp 
+  864  mpirun --oversubscribe -np 4 ./a.out 
+  865  mpirun --oversubscribe -np 4 ./a.out 
+  866  mpirun --oversubscribe -np 3 ./a.out 
+  867  mpirun --oversubscribe -np 5 ./a.out 
+  868  mpirun --oversubscribe -np 6 ./a.out 
+  869  cd matrixvec\ multi/
+  870  ls
+  871  mpirun --oversubscribe -np 4 ./a.out 
+  872  mpirun --oversubscribe -np 5 ./a.out 
+  873  mpirun --oversubscribe -np 6 ./a.out 
+  874  mpirun --oversubscribe -np 7 ./a.out 
+  875  cd Desktop/
+  876  ls -a
+  877  ls -l
+  878  ls -la
+  879  nano symbolic_link 
+  880  cd appliedcry/
+  881  tree
+  882  ls -l
+  883  mpic++ integrationBoolesMethod_L3.cpp 
+  884  g++ main.cpp DLP.cpp -lntl -lgmp
+  885  ./a.out 
+  886  ls
+  887  g++ main.cpp diffie_helman.cpp 
+  888  ./a.out 
+  889  g++ main.cpp elgamal.cpp -lntl -lgmp
+  890  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  891  ./a.out 
+  892  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  893  ./a.out 
+  894  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  895  ls
+  896  g++ main.cpp elgamal.cpp -lntl -lgmp -pthread
+  897  g++ library_test.cpp -lntl -lgmp -pthread
+  898  ./a.out 
+  899  g++ library_test.cpp -lntl -lgmp -pthread
+  900  ./a.out 
+  901  mpirun --oversubscribe -np 4 ./a.out 
+  902  vs assgn1.py 
+  903  pluma assgn1.py 
+  904  python3 assgn1.py 
+  905  cat assgn1.py 
+  906  pip3 install pandas
+  907  pip3 install matplotlib
+  908  pluma assgn1.py 
+  909  sudo reboot 
+  910  /bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  911  /bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  912  /usr/local/bin/python3.12 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  913  /bin/python3 /home/suraj/Desktop/python/olympic/MS2321-assgn1.py
+  914  python3 MS2321-assgn1.py 
+  915  pip3 install pandas
+  916  pip
+  917  pip3.10 install pandas
+  918  sudo apt update 
+  919  sh pc3
+  920  sh pc3.sh 
+  921  sh pc2.sh 
+  922  uptime -p
+  923  sudo shutdown now
+  924  uptime -p
+  925  sudo reboot 
+  926  python3 tsp_ga.py 
+  927  python3.10 tsp_ga.py 
+  928  python3 tsp_ga.py 
+  929  python3 Traveling\ Salesman\ Problem\ \(TSP\)\ using\ a\ Genetic\ Algorithm.py 
+  930  python3 Traveling\ Salesman\ Problem\ \(TSP\)\ using\ a\ Genetic\ Algorithm.py -lm
+  931  python3 tsp_ga.py 
+  932  printenv > "/tmp/tmp-74227eUqMCxxUWTvV.txt"
+  933  python3 newtsp.py 
+  934  cmatrix 
+  935  cd Desktop/
+  936  cd shell-scripts/
+  937  ls
+  938  cd ..
+  939  ls
+  940  cat funcomds.txt 
+  941  sudo apt install libaa-bin 
+  942  aafire
+  943  sudo install sl
+  944  sudo apt install sl
+  945  sl
+  946  uptime -p
+  947  sudo apt update 
+  948  sudo reboot 
+  949  cd Desktop/shell-scripts/
+  950  sh aptupdate.sh 
+  951  python3 tsp0409.py 
+  952  cd Desktop/
+  953  cd shell-scripts/
+  954  ls
+  955  sh pc2.sh 
+  956  python3 coffee.py 
+  957  pip3 install seaborn
+  958  python3 coffee.py 
+  959  python3 read.py 
+  960  python3 coffee.py 
+  961  python3 read.py 
+  962  python3 coffee.py 
+  963  python3 read.py 
+  964  python3 coffee.py 
+  965  python3 read.py 
+  966  python3 coffee.py 
+  967  python3 coffee-ms2321.py 
+  968  python3 tsp_ga.py 
+  969  python3 newtsp.py 
+  970  python3 tsp0409.py 
+  971  python3 read.py 
+  972  python3 0409tsp2.py 
+  973  python3 0409tsp2.py 
+  974  sudo shutdown now
+  975  ping google.com
+  976  ping 192.168.38.199
+  977  python3
+  978  ipython3
+  979  ping 192.168.6.5
+  980  ping 192.168.6.6
+  981  ping 192.168.38.199
+  982  python3
+  983  ping 192.168.38.199
+  984  history 
+  985  python3 0409tsp2.py 
+  986  cd Desktop/shell-scripts/
+  987  sh pc2.sh 
+  988  uptime -p
+  989  cd Desktop/
+  990  ls
+  991  cd shell-scripts/
+  992  ls
+  993  sh aptupdate.sh 
+  994  apt list --upgradable 
+  995  sudo apt upgrade 
+  996  sudo apt full-upgrade 
+  997  sudo apt upgrade 
+  998  apt --version
+  999  sudo reboot 
+ 1000  sudo apt update 
+ 1001  sudo apt upgrade 
+ 1002  sudo apt update 
+ 1003  sudo apt upgrade 
+ 1004  sudo apt autoremove 
+ 1005  sudo apt upgrade 
+ 1006  ping 192.168.6.5
+ 1007  ping 192.168.6.6
+ 1008  sudo apt update 
+ 1009  ping 192.168.38.199
+ 1010  cd Desktop/shell-scripts/
+ 1011  ls
+ 1012  sh aptupdate.sh 
+ 1013  sudo reboot 
+ 1014  uptime -p
+ 1015  cd Desktop/
+ 1016  cd shell-scripts/
+ 1017  sh aptupdate.sh 
+ 1018  sudo apt autoremove 
+ 1019  sh aptupdate.sh 
+ 1020  cd Desktop/shell-scripts/
+ 1021  sh pc2.sh 
+ 1022  /bin/python3 "/home/suraj/Desktop/python for scientific comp/presentations/codems2321.py"
+ 1023  python3 presentations/codems2321.py 
+ 1024  ls
+ 1025  cd presentations/
+ 1026  ls
+ 1027  python3 codems2321.py 
+ 1028  ping google.co.in
+ 1029  ping 192.168.6.6
+ 1030  ping 192.168.6.4
+ 1031  ping 192.168.38.199
+ 1032  ping 192.168.6.4
+ 1033  ping 192.168.38.199
+ 1034  ping google.com
+ 1035  ping 192.168.38.199
+ 1036  ping 192.168.6.5
+ 1037  ping 192.168.38.199
+ 1038  ping google.com
+ 1039  ping 192.168.38.199
+ 1040  python3
+ 1041  plt.figure() years = data['year'].dropna().value_counts()
+ 1042  years[years > 300].plot(kind='bar',title = 'Years and Records' )
+ 1043  plt.xlabel('Years')
+ 1044  plt.ylabel('Species observed in that year')
+ 1045  plt.legend() plt.show()
+ 1046  years.describe() ipython3
+ 1047  python3
+ 1048  conda
+ 1049  conda activate
+ 1050  jupyter-notebook 
+ 1051  pip3 install pycountry
+ 1052  /bin/python3 /home/suraj/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/suraj/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1053  history 
+ 1054  history > cryruncommand.txt

@@ -1,0 +1,19 @@
+
+
+'''
+p = int(input("Enter the prime number: "))
+g = int(input("Enter the primitive root: "))
+a = int(input("Enter the private key of A: "))
+b = int(input("Enter the private key of B: "))
+
+x = (g**a)%p
+y = (g**b)%p
+
+k1 = (y**a)%p
+k2 = (x**b)%p
+
+if k1 == k2:
+    print("The shared secret key is: ", k1)
+else:
+    print("The shared secret key is not same")
+    '''
